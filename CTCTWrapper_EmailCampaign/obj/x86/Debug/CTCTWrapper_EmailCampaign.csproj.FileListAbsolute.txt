@@ -1,0 +1,15 @@
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\bin\Debug\CTCTWrapper_EmailCampaign.exe.config
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\bin\Debug\CTCTWrapper_EmailCampaign.exe
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\bin\Debug\CTCTWrapper_EmailCampaign.pdb
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\bin\Debug\CTCT.dll
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\bin\Debug\CTCT.pdb
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\bin\Debug\CTCT.xml
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\obj\x86\Debug\CTCTWrapper_EmailCampaign.csprojResolveAssemblyReference.cache
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\obj\x86\Debug\CTCTWrapper_EmailCampaign.frmEmailCampaign.resources
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\obj\x86\Debug\CTCTWrapper_EmailCampaign.Properties.Resources.resources
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\obj\x86\Debug\CTCTWrapper_EmailCampaign.csproj.GenerateResource.Cache
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\obj\x86\Debug\CTCTWrapper_EmailCampaign.exe
+C:\Users\SaptaDellPc\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\obj\x86\Debug\CTCTWrapper_EmailCampaign.pdb
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\bin\Debug\CTCTWrapper_EmailCampaign.exe.config
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\obj\x86\Debug\CTCTWrapper_EmailCampaign.exe
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\CTCTWrapper_EmailCampaign\obj\x86\Debug\CTCTWrapper_EmailCampaign.pdb

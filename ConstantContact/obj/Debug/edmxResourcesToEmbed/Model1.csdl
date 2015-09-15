@@ -1,0 +1,1596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SaptaerecruitModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SaptaerecruitEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="adminnotes" EntityType="SaptaerecruitModel.adminnote" />
+    <EntitySet Name="adminrequirments" EntityType="SaptaerecruitModel.adminrequirment" />
+    <EntitySet Name="allresumeextracts" EntityType="SaptaerecruitModel.allresumeextract" />
+    <EntitySet Name="allresumes" EntityType="SaptaerecruitModel.allresume" />
+    <EntitySet Name="assessperformances" EntityType="SaptaerecruitModel.assessperformance" />
+    <EntitySet Name="BasePurchaseOrders" EntityType="SaptaerecruitModel.BasePurchaseOrder" />
+    <EntitySet Name="candidatedetails" EntityType="SaptaerecruitModel.candidatedetail" />
+    <EntitySet Name="candidateinterviewdetails" EntityType="SaptaerecruitModel.candidateinterviewdetail" />
+    <EntitySet Name="candidatelogs" EntityType="SaptaerecruitModel.candidatelog" />
+    <EntitySet Name="clientinfs" EntityType="SaptaerecruitModel.clientinf" />
+    <EntitySet Name="clientinvoices" EntityType="SaptaerecruitModel.clientinvoice" />
+    <EntitySet Name="EmailInfoes" EntityType="SaptaerecruitModel.EmailInfo" />
+    <EntitySet Name="Employee_Master" EntityType="SaptaerecruitModel.Employee_Master" />
+    <EntitySet Name="ExpenseCategories" EntityType="SaptaerecruitModel.ExpenseCategory" />
+    <EntitySet Name="Expenses" EntityType="SaptaerecruitModel.Expens" />
+    <EntitySet Name="hireextensions" EntityType="SaptaerecruitModel.hireextension" />
+    <EntitySet Name="JobSeekerEducationDetails" EntityType="SaptaerecruitModel.JobSeekerEducationDetail" />
+    <EntitySet Name="JobSeekerEmploymentDetails" EntityType="SaptaerecruitModel.JobSeekerEmploymentDetail" />
+    <EntitySet Name="jobseekerHomes" EntityType="SaptaerecruitModel.jobseekerHome" />
+    <EntitySet Name="JobSeekerInfoes" EntityType="SaptaerecruitModel.JobSeekerInfo" />
+    <EntitySet Name="Leaves" EntityType="SaptaerecruitModel.Leaf" />
+    <EntitySet Name="LoginHistories" EntityType="SaptaerecruitModel.LoginHistory" />
+    <EntitySet Name="PayrollVMs" EntityType="SaptaerecruitModel.PayrollVM" />
+    <EntitySet Name="ProcessPayrolls" EntityType="SaptaerecruitModel.ProcessPayroll" />
+    <EntitySet Name="Projects" EntityType="SaptaerecruitModel.Project" />
+    <EntitySet Name="PurchaseOrders" EntityType="SaptaerecruitModel.PurchaseOrder" />
+    <EntitySet Name="PurchaseRequests" EntityType="SaptaerecruitModel.PurchaseRequest" />
+    <EntitySet Name="questionnaires" EntityType="SaptaerecruitModel.questionnaire" />
+    <EntitySet Name="Receipts_Info" EntityType="SaptaerecruitModel.Receipts_Info" />
+    <EntitySet Name="RecentItems" EntityType="SaptaerecruitModel.RecentItem" />
+    <EntitySet Name="RecentReqItems" EntityType="SaptaerecruitModel.RecentReqItem" />
+    <EntitySet Name="ReportDashBoards" EntityType="SaptaerecruitModel.ReportDashBoard" />
+    <EntitySet Name="resumeextracts" EntityType="SaptaerecruitModel.resumeextract" />
+    <EntitySet Name="resumeInfoes" EntityType="SaptaerecruitModel.resumeInfo" />
+    <EntitySet Name="Sapta_Bdm" EntityType="SaptaerecruitModel.Sapta_Bdm" />
+    <EntitySet Name="Sapta_Bdm_Master" EntityType="SaptaerecruitModel.Sapta_Bdm_Master" />
+    <EntitySet Name="Sapta_BiWeekly" EntityType="SaptaerecruitModel.Sapta_BiWeekly" />
+    <EntitySet Name="Sapta_BiWeekly_Original" EntityType="SaptaerecruitModel.Sapta_BiWeekly_Original" />
+    <EntitySet Name="Sapta_ClientManager" EntityType="SaptaerecruitModel.Sapta_ClientManager" />
+    <EntitySet Name="Sapta_ClientMaster" EntityType="SaptaerecruitModel.Sapta_ClientMaster" />
+    <EntitySet Name="Sapta_ClientRecruiter" EntityType="SaptaerecruitModel.Sapta_ClientRecruiter" />
+    <EntitySet Name="Sapta_Employees" EntityType="SaptaerecruitModel.Sapta_Employees" />
+    <EntitySet Name="Sapta_Hr" EntityType="SaptaerecruitModel.Sapta_Hr" />
+    <EntitySet Name="Sapta_Invoice" EntityType="SaptaerecruitModel.Sapta_Invoice" />
+    <EntitySet Name="Sapta_Invoice_ToClients" EntityType="SaptaerecruitModel.Sapta_Invoice_ToClients" />
+    <EntitySet Name="Sapta_Monthly" EntityType="SaptaerecruitModel.Sapta_Monthly" />
+    <EntitySet Name="Sapta_Monthly_Original" EntityType="SaptaerecruitModel.Sapta_Monthly_Original" />
+    <EntitySet Name="Sapta_NationalHolidays" EntityType="SaptaerecruitModel.Sapta_NationalHolidays" />
+    <EntitySet Name="Sapta_SemiMonthly" EntityType="SaptaerecruitModel.Sapta_SemiMonthly" />
+    <EntitySet Name="Sapta_Timesheet" EntityType="SaptaerecruitModel.Sapta_Timesheet" />
+    <EntitySet Name="Sapta_Users" EntityType="SaptaerecruitModel.Sapta_Users" />
+    <EntitySet Name="Sapta_Weekly" EntityType="SaptaerecruitModel.Sapta_Weekly" />
+    <EntitySet Name="Suppliers" EntityType="SaptaerecruitModel.Supplier" />
+    <EntitySet Name="t" EntityType="SaptaerecruitModel.t" />
+    <EntitySet Name="tempPayrolls" EntityType="SaptaerecruitModel.tempPayroll" />
+    <EntitySet Name="users" EntityType="SaptaerecruitModel.user" />
+    <EntitySet Name="vendorrequirements" EntityType="SaptaerecruitModel.vendorrequirement" />
+    <EntitySet Name="vendors" EntityType="SaptaerecruitModel.vendor" />
+    <EntitySet Name="vendors_old" EntityType="SaptaerecruitModel.vendors_old" />
+    <EntitySet Name="vendorsALLs" EntityType="SaptaerecruitModel.vendorsALL" />
+    <AssociationSet Name="FK_Expenses_ExpenseCategories" Association="SaptaerecruitModel.FK_Expenses_ExpenseCategories">
+      <End Role="ExpenseCategories" EntitySet="ExpenseCategories" />
+      <End Role="Expenses" EntitySet="Expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Expenses_Sapta_Users" Association="SaptaerecruitModel.FK_Expenses_Sapta_Users">
+      <End Role="Sapta_Users" EntitySet="Sapta_Users" />
+      <End Role="Expenses" EntitySet="Expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JobSeekerEducationDetails_JobSeekerInfo" Association="SaptaerecruitModel.FK_JobSeekerEducationDetails_JobSeekerInfo">
+      <End Role="JobSeekerInfo" EntitySet="JobSeekerInfoes" />
+      <End Role="JobSeekerEducationDetails" EntitySet="JobSeekerEducationDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JobSeekerEmploymentDetails_JobSeekerInfo" Association="SaptaerecruitModel.FK_JobSeekerEmploymentDetails_JobSeekerInfo">
+      <End Role="JobSeekerInfo" EntitySet="JobSeekerInfoes" />
+      <End Role="JobSeekerEmploymentDetails" EntitySet="JobSeekerEmploymentDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_jobseekerHome_JobSeekerInfo" Association="SaptaerecruitModel.FK_jobseekerHome_JobSeekerInfo">
+      <End Role="JobSeekerInfo" EntitySet="JobSeekerInfoes" />
+      <End Role="jobseekerHome" EntitySet="jobseekerHomes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Project_Project" Association="SaptaerecruitModel.FK_Project_Project">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseOrders_Suppliers" Association="SaptaerecruitModel.FK_PurchaseOrders_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="PurchaseOrders" EntitySet="PurchaseOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Receipts_Info_Suppliers" Association="SaptaerecruitModel.FK_Receipts_Info_Suppliers">
+      <End Role="PurchaseOrders" EntitySet="PurchaseOrders" />
+      <End Role="Receipts_Info" EntitySet="Receipts_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseRequests_Suppliers" Association="SaptaerecruitModel.FK_PurchaseRequests_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="PurchaseRequests" EntitySet="PurchaseRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Bdm_Sapta_Bdm_Master" Association="SaptaerecruitModel.FK_Sapta_Bdm_Sapta_Bdm_Master">
+      <End Role="Sapta_Bdm_Master" EntitySet="Sapta_Bdm_Master" />
+      <End Role="Sapta_Bdm" EntitySet="Sapta_Bdm" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Bdm_Sapta_ClientMaster" Association="SaptaerecruitModel.FK_Sapta_Bdm_Sapta_ClientMaster">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Sapta_Bdm" EntitySet="Sapta_Bdm" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_Bdm" Association="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Bdm">
+      <End Role="Sapta_Bdm" EntitySet="Sapta_Bdm" />
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_ClientManager_Sapta_ClientMaster" Association="SaptaerecruitModel.FK_Sapta_ClientManager_Sapta_ClientMaster">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Sapta_ClientManager" EntitySet="Sapta_ClientManager" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_ClientManager_Sapta_Users" Association="SaptaerecruitModel.FK_Sapta_ClientManager_Sapta_Users">
+      <End Role="Sapta_Users" EntitySet="Sapta_Users" />
+      <End Role="Sapta_ClientManager" EntitySet="Sapta_ClientManager" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_ClientManager" Association="SaptaerecruitModel.FK_Sapta_Employees_Sapta_ClientManager">
+      <End Role="Sapta_ClientManager" EntitySet="Sapta_ClientManager" />
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_ClientRecruiter_Sapta_ClientMaster" Association="SaptaerecruitModel.FK_Sapta_ClientRecruiter_Sapta_ClientMaster">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Sapta_ClientRecruiter" EntitySet="Sapta_ClientRecruiter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_ClientMaster" Association="SaptaerecruitModel.FK_Sapta_Employees_Sapta_ClientMaster">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_ClientRecruiter_Sapta_Users" Association="SaptaerecruitModel.FK_Sapta_ClientRecruiter_Sapta_Users">
+      <End Role="Sapta_Users" EntitySet="Sapta_Users" />
+      <End Role="Sapta_ClientRecruiter" EntitySet="Sapta_ClientRecruiter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_Employees" Association="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Employees">
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+      <End Role="Sapta_Employees1" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_Users" Association="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Users">
+      <End Role="Sapta_Users" EntitySet="Sapta_Users" />
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Timesheet_Sapta_Employees" Association="SaptaerecruitModel.FK_Sapta_Timesheet_Sapta_Employees">
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+      <End Role="Sapta_Timesheet" EntitySet="Sapta_Timesheet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="adminnote">
+    <Key>
+      <PropertyRef Name="adminnoteid" />
+    </Key>
+    <Property Name="adminnoteid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="resumeid" Type="Int32" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="noteschangedondate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="notes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="action" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="updatedby" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="adminrequirment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="requirement" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="requirmentfilename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="department" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="employmentType" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="duration" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="clientemailid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="subject" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="billrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="payrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recruiterid" Type="Int32" />
+    <Property Name="techadminid" Type="Int32" />
+    <Property Name="righttorepresent" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="emailbody" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="postedbyBDM" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="postedbyBDMemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="vendorstatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="noofresumes" Type="Int32" />
+    <Property Name="SSNrequired" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="startDate" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="noofrequiredskills" Type="Int32" />
+    <Property Name="allskills" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="showquestionnaires" Type="String" MaxLength="1" Unicode="true" FixedLength="false" />
+    <Property Name="uploadeddate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="requirementlocation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recruiteremailid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="techadminemailid" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="closingdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="duration_indays" Type="Int32" />
+    <Property Name="extsalesmgr" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="allresumeextract">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Mobile" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ZipCode" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StateCode" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StateName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Street" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CurrentAddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PermanentAddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="DOB" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="URL" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LINKEDIN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TWITTER" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SKYPEID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TotalExp" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RelevantExp" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Skills" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Companies" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CompanyLocations" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="AreasOfExpertize" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Certifications" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="VisaStatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EducationDetails" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Roles" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="resumeid" Type="Int64" />
+    <Property Name="resumename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SSN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Rank" Type="Int32" />
+    <Property Name="LineNumber" Type="Int32" />
+    <Property Name="ish1bcandidate" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="allresume">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="resume" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="keywords" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="contents" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ish1bcandidate" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="assessperformance">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="recruiterrname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="performance" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="dateofeavluation" Type="String" MaxLength="150" Unicode="true" FixedLength="false" />
+    <Property Name="noofmonthlylogos" Type="Int32" />
+    <Property Name="noofweeklylogos" Type="Int32" />
+    <Property Name="totalnooflogos" Type="Int32" />
+    <Property Name="recruiteremailid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="evaluatestatus" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="performancelogo" Type="Int32" />
+  </EntityType>
+  <EntityType Name="BasePurchaseOrder">
+    <Key>
+      <PropertyRef Name="pob_id" />
+    </Key>
+    <Property Name="pob_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="pob_generated_on" Type="DateTime" />
+    <Property Name="total_amount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="valid_upto" Type="DateTime" />
+    <Property Name="pob_initiallyraised_by" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pob_issued_to" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pob_issued_to_supplier_id" Type="Int64" />
+    <Property Name="pob_raised_for" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pob_raised_for_id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="isapproved" Type="Boolean" />
+    <Property Name="netterms" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="joiningdate" Type="DateTime" />
+    <Property Name="billrate" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="due_amount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="joblocation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="employee_type" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HRmail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SalesDirectormail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pob_raised_for_client" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pob_raised_for_client_id" Type="Int32" />
+    <Property Name="isinitial" Type="Boolean" />
+    <Property Name="clientInvoiceId" Type="Int64" />
+  </EntityType>
+  <EntityType Name="candidatedetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="firstname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="lastname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contactaddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="emailid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contactnumber" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="createdon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="owner" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="source" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="currentjobtitle" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="currentemployer" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="skillset" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="expextedsalary" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="qualification" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="additionalinfo" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="currentsalary" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="resumename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="candidateinterviewdetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidatename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="emailid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mobileno" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientmanager" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientmanageremail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientmanagermobile" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="interviewtimeslot" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="candidatelog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidatename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="mobile" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="feedback" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recruiteremail" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="dateofinsertion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="requirement" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="skills" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="clientinf">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="clientname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientmailid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientlocation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientphone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="clientinvoice">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="clientid" Type="Int32" />
+    <Property Name="clientname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contractorid" Type="Int32" />
+    <Property Name="contractorname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplierid" Type="Int32" />
+    <Property Name="suppliername" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="billrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="payrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="noofhours" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="misc1" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="misc2" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="EmailInfo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="foldername" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="subject" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mailcontent" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="insertedon" Type="DateTime" />
+    <Property Name="insertedby" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fromemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="maildate" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="Employee_Master">
+    <Key>
+      <PropertyRef Name="empmid" />
+    </Key>
+    <Property Name="empmid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="empmfirstname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmlastname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmiddlename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmalternativeemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmmobileno" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmphoneno" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmaddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmcity" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmstate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmcountry" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmSSN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmvisastatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmcurrentcity" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmcurrentcountry" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmoriginalcountry" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmgender" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmmaritualstatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmdob" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmfathername" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmmothername" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empminsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empstatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empzip" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmtype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empmpayfrequncy" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="hrstatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bdmstatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="empbillrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="emppayrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientmanager" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientmanageremail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ExpenseCategory">
+    <Key>
+      <PropertyRef Name="ExpenseCategoryId" />
+    </Key>
+    <Property Name="ExpenseCategoryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Expenses" Relationship="SaptaerecruitModel.FK_Expenses_ExpenseCategories" FromRole="ExpenseCategories" ToRole="Expenses" />
+  </EntityType>
+  <EntityType Name="Expens">
+    <Key>
+      <PropertyRef Name="ExpenseSheetId" />
+    </Key>
+    <Property Name="ExpenseSheetId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeID" Type="Int32" />
+    <Property Name="ExpensesOnDate" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="InsertedOn" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ExpenseType" Type="Int32" />
+    <Property Name="Amount" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="FilePath" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="IsApproved" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ExpenseCategory" Relationship="SaptaerecruitModel.FK_Expenses_ExpenseCategories" FromRole="Expenses" ToRole="ExpenseCategories" />
+    <NavigationProperty Name="Sapta_Users" Relationship="SaptaerecruitModel.FK_Expenses_Sapta_Users" FromRole="Expenses" ToRole="Sapta_Users" />
+  </EntityType>
+  <EntityType Name="hireextension">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="resumeid" Type="Int32" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidatename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidateemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="procurementmgrname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="procurementmgremail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="joblocation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="agreedpayrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="permanenthire" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="howsoontohire" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="extendcontract" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="howlongextension" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="joiningdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="JobSeekerEducationDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="jid" Type="Int64" Nullable="false" />
+    <Property Name="primaryeducation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pestartyear" Type="Int32" />
+    <Property Name="peendyear" Type="Int32" />
+    <Property Name="pepercentage" Type="Double" />
+    <Property Name="secondaryeducation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="sestartyear" Type="Int32" />
+    <Property Name="seendyear" Type="Int32" />
+    <Property Name="sepercentage" Type="Double" />
+    <Property Name="graduation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="gestartyear" Type="Int32" />
+    <Property Name="geendyear" Type="Int32" />
+    <Property Name="gepercentage" Type="Double" />
+    <Property Name="othereducation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="oestartyear" Type="Int32" />
+    <Property Name="oeendyear" Type="Int32" />
+    <Property Name="oepercentage" Type="Double" />
+    <NavigationProperty Name="JobSeekerInfo" Relationship="SaptaerecruitModel.FK_JobSeekerEducationDetails_JobSeekerInfo" FromRole="JobSeekerEducationDetails" ToRole="JobSeekerInfo" />
+  </EntityType>
+  <EntityType Name="JobSeekerEmploymentDetail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="jobseekerid" Type="Int64" Nullable="false" />
+    <Property Name="workexperince" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="currentsalary" Type="Double" />
+    <Property Name="currentcomapnyname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fromyear" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="toyear" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="keyskills" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="resumename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="JobSeekerInfo" Relationship="SaptaerecruitModel.FK_JobSeekerEmploymentDetails_JobSeekerInfo" FromRole="JobSeekerEmploymentDetails" ToRole="JobSeekerInfo" />
+  </EntityType>
+  <EntityType Name="jobseekerHome">
+    <Key>
+      <PropertyRef Name="applicationId" />
+    </Key>
+    <Property Name="applicationId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="jobseekerId" Type="Int64" Nullable="false" />
+    <Property Name="requirementId" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="isApplied" Type="Boolean" />
+    <Property Name="appliedOn" Type="DateTime" />
+    <Property Name="recruiterEmailId" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="requirementUploadBy" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="JobSeekerInfo" Relationship="SaptaerecruitModel.FK_jobseekerHome_JobSeekerInfo" FromRole="jobseekerHome" ToRole="JobSeekerInfo" />
+  </EntityType>
+  <EntityType Name="JobSeekerInfo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="lastname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="middlename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="emailid" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="password" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mobileno" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="JobSeekerEducationDetails" Relationship="SaptaerecruitModel.FK_JobSeekerEducationDetails_JobSeekerInfo" FromRole="JobSeekerInfo" ToRole="JobSeekerEducationDetails" />
+    <NavigationProperty Name="JobSeekerEmploymentDetails" Relationship="SaptaerecruitModel.FK_JobSeekerEmploymentDetails_JobSeekerInfo" FromRole="JobSeekerInfo" ToRole="JobSeekerEmploymentDetails" />
+    <NavigationProperty Name="jobseekerHomes" Relationship="SaptaerecruitModel.FK_jobseekerHome_JobSeekerInfo" FromRole="JobSeekerInfo" ToRole="jobseekerHome" />
+  </EntityType>
+  <EntityType Name="Leaf">
+    <Key>
+      <PropertyRef Name="LeaveId" />
+    </Key>
+    <Property Name="LeaveId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LeaveCode" Type="String" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="LeaveName" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="LoginHistory">
+    <Key>
+      <PropertyRef Name="HistoryId" />
+    </Key>
+    <Property Name="HistoryId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_Name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Login_Time" Type="DateTime" />
+    <Property Name="Source_Ip" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Login_Type" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Browser" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Platform" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Application" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Login_URL" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ISP" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LatitudeLongitude" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PayrollVM">
+    <Key>
+      <PropertyRef Name="payrollid" />
+    </Key>
+    <Property Name="payrollid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="speid" Type="Int32" />
+    <Property Name="ConsultantName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Duration" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RegHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="OtHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HoliHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="GrossRevenue" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BillRate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PayRate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EmpPay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EmpPayroll" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BCP" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StandardDeduction" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="NetProfit" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CommPercent" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CommAmount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PayrollStatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spetype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spepaytype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="payroll_insertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recruitement_comission" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="FBC" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="tids_count" Type="Int32" />
+    <Property Name="firstweek" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="firstweek_regular" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="first_ot" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="first_holiday" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="secondweek" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="secondweek_regular" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="second_ot" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="second_holiday" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="first_tid" Type="Int32" />
+    <Property Name="second_tid" Type="Int32" />
+    <Property Name="thirdweek" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="thirdweek_regular" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="third_ot" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="third_holiday" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fourthweek" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fourthweek_regular" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fourt_ot" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fourt_holiday" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fifthtweek" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fifthweek_regular" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fifth_ot" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="fifth_holiday" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="third_tid" Type="Int32" />
+    <Property Name="fourth_tid" Type="Int32" />
+    <Property Name="fifth_tid" Type="Int32" />
+    <Property Name="bdmname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="FirstWeekEmpPay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SecondWeekEmpPay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ThirdWeekEmpPay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="FourthWeekPay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="FifthWeekEmpPay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ProcessPayroll">
+    <Key>
+      <PropertyRef Name="payrollid" />
+    </Key>
+    <Property Name="payrollid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="speid" Type="Int32" />
+    <Property Name="ConsultantName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Duration" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RegHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="OtHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HoliHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="GrossRevenue" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BillRate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PayRate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EmpPay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EmpPayroll" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BCP" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StandardDeduction" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="NetProfit" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CommPercent" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CommAmount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PayrollStatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spetype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spepaytype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="payroll_insertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ClientID" Type="Int32" />
+    <NavigationProperty Name="Sapta_ClientMaster" Relationship="SaptaerecruitModel.FK_Project_Project" FromRole="Project" ToRole="Sapta_ClientMaster" />
+  </EntityType>
+  <EntityType Name="PurchaseOrder">
+    <Key>
+      <PropertyRef Name="po_id" />
+    </Key>
+    <Property Name="po_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="po_generated_on" Type="DateTime" />
+    <Property Name="purchase_amount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="valid_upto" Type="DateTime" />
+    <Property Name="po_raised_by" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="po_issued_to" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="po_issued_to_supplier_id" Type="Int64" />
+    <Property Name="po_raised_for" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="po_raised_for_id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="isapproved" Type="Boolean" />
+    <Property Name="netterms" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="joiningdate" Type="DateTime" />
+    <Property Name="billrate" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="duration" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="joblocation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="employee_type" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HRmail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SalesDirectormail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="po_raised_for_client" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="po_raised_for_client_id" Type="Int32" />
+    <Property Name="pob_id" Type="Int64" />
+    <Property Name="isinitial" Type="Boolean" />
+    <NavigationProperty Name="Supplier" Relationship="SaptaerecruitModel.FK_PurchaseOrders_Suppliers" FromRole="PurchaseOrders" ToRole="Suppliers" />
+    <NavigationProperty Name="Receipts_Info" Relationship="SaptaerecruitModel.FK_Receipts_Info_Suppliers" FromRole="PurchaseOrders" ToRole="Receipts_Info" />
+  </EntityType>
+  <EntityType Name="PurchaseRequest">
+    <Key>
+      <PropertyRef Name="pr_id" />
+    </Key>
+    <Property Name="pr_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="purchase_request_generated_on" Type="DateTime" />
+    <Property Name="requested_amount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="pr_raised_by" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pr_received_by_supplier" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pr_received_by_supplier_id" Type="Int64" />
+    <Property Name="pr_raised_for" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pr_raised_for_id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="isapproved" Type="Boolean" />
+    <Property Name="netterms" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="joiningdate" Type="DateTime" />
+    <Property Name="billrate" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="duration" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="joblocation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="employee_type" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HRmail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SalesDirectormail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pr_raised_for_client" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pr_raised_for_client_id" Type="Int32" />
+    <NavigationProperty Name="Supplier" Relationship="SaptaerecruitModel.FK_PurchaseRequests_Suppliers" FromRole="PurchaseRequests" ToRole="Suppliers" />
+  </EntityType>
+  <EntityType Name="questionnaire">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="skillname" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="question" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="answer" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Receipts_Info">
+    <Key>
+      <PropertyRef Name="receipt_id" />
+    </Key>
+    <Property Name="receipt_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="receipt_number" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="receipt_of_po" Type="Int64" />
+    <Property Name="received_on" Type="DateTime" />
+    <Property Name="received_from_supplier_id" Type="Int64" />
+    <Property Name="received_to" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="PurchaseOrder" Relationship="SaptaerecruitModel.FK_Receipts_Info_Suppliers" FromRole="Receipts_Info" ToRole="PurchaseOrders" />
+  </EntityType>
+  <EntityType Name="RecentItem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Page" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="URL" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Text" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Client" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RI1" Type="Boolean" />
+    <Property Name="RI2" Type="Boolean" />
+    <Property Name="RI3" Type="Boolean" />
+    <Property Name="Position" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CandidateName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="resumeid" Type="Int32" />
+    <Property Name="resumename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recent1" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recent2" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recent3" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="RecentReqItem">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Page" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="URL" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Text" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Client" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RI1" Type="Boolean" />
+    <Property Name="RI2" Type="Boolean" />
+    <Property Name="RI3" Type="Boolean" />
+    <Property Name="billrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="requirement" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recent1" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recent2" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recent3" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Position" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ReportDashBoard">
+    <Key>
+      <PropertyRef Name="ReportId" />
+    </Key>
+    <Property Name="ReportId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReportName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ReportCreatedOn" Type="DateTime" />
+    <Property Name="ReportCreatedBy" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Folder" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mis1" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mis2" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="startdate" Type="DateTime" />
+    <Property Name="enddate" Type="DateTime" />
+    <Property Name="action" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="resumeextract">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Mobile" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ZipCode" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StateCode" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StateName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Street" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CurrentAddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PermanentAddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="DOB" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="URL" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="LINKEDIN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TWITTER" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SKYPEID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="TotalExp" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RelevantExp" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Skills" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Companies" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CompanyLocations" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="AreasOfExpertize" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Certifications" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="VisaStatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EducationDetails" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Roles" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="resumeid" Type="Int64" />
+    <Property Name="resumename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SSN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Rank" Type="Int32" />
+    <Property Name="LineNumber" Type="Int32" />
+  </EntityType>
+  <EntityType Name="resumeInfo">
+    <Key>
+      <PropertyRef Name="resumeid" />
+    </Key>
+    <Property Name="resumeid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="resumename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recruiteremail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="techadminemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recruiterfeedback" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="techadminfeedback" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="resumeinfo1" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="submittedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidateFullLegalName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidatecurrentlocation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidatemobilenumber" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidateemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="skypeID" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="availableInterviewTimeslots" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="noticePeriod" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="highestDegree" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="yearOfGraduation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="university" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="willingToRelocate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="workAuthorizationAndValidity" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="totalYearsOfExperience" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="totalYearsRelevantExperience" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="candidatepayrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="currentstatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="previousstatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="skillsfoundincv" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="skillsummary" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="is_a_Point" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="rtrname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="c2cname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="rcename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="firstname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="lastname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="middlename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="msaname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="poname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="submissionrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="prname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="oldresume" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="cjoiningdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ish1bcandidate" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="Sapta_Bdm">
+    <Key>
+      <PropertyRef Name="bid" />
+    </Key>
+    <Property Name="bid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="bdmname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bdmemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bdminsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bdmid" Type="Int32" />
+    <Property Name="bdmclientid" Type="Int32" />
+    <Property Name="bdmcommision" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Sapta_Bdm_Master" Relationship="SaptaerecruitModel.FK_Sapta_Bdm_Sapta_Bdm_Master" FromRole="Sapta_Bdm" ToRole="Sapta_Bdm_Master" />
+    <NavigationProperty Name="Sapta_ClientMaster" Relationship="SaptaerecruitModel.FK_Sapta_Bdm_Sapta_ClientMaster" FromRole="Sapta_Bdm" ToRole="Sapta_ClientMaster" />
+    <NavigationProperty Name="Sapta_Employees" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Bdm" FromRole="Sapta_Bdm" ToRole="Sapta_Employees" />
+  </EntityType>
+  <EntityType Name="Sapta_Bdm_Master">
+    <Key>
+      <PropertyRef Name="bdmid" />
+    </Key>
+    <Property Name="bdmid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="bdmname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bdmemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bdmphone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bdminsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Sapta_Bdm" Relationship="SaptaerecruitModel.FK_Sapta_Bdm_Sapta_Bdm_Master" FromRole="Sapta_Bdm_Master" ToRole="Sapta_Bdm" />
+  </EntityType>
+  <EntityType Name="Sapta_BiWeekly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="enddate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paydate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_BiWeekly_Original">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="enddate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paydate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_ClientManager">
+    <Key>
+      <PropertyRef Name="ctmgrid" />
+    </Key>
+    <Property Name="ctmgrid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ctmgridvar" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrname" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrtitle" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgraddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgremail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrphone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrcity" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrstate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrzip" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientid" Type="Int32" Nullable="false" />
+    <Property Name="ctmgrdept" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrinsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrpointofcontactatsapta" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="saptaid" Type="Int32" Nullable="false" />
+    <Property Name="ctmgrfirstname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrmiddlename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctmgrlastname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Sapta_ClientMaster" Relationship="SaptaerecruitModel.FK_Sapta_ClientManager_Sapta_ClientMaster" FromRole="Sapta_ClientManager" ToRole="Sapta_ClientMaster" />
+    <NavigationProperty Name="Sapta_Users" Relationship="SaptaerecruitModel.FK_Sapta_ClientManager_Sapta_Users" FromRole="Sapta_ClientManager" ToRole="Sapta_Users" />
+    <NavigationProperty Name="Sapta_Employees" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_ClientManager" FromRole="Sapta_ClientManager" ToRole="Sapta_Employees" />
+  </EntityType>
+  <EntityType Name="Sapta_ClientMaster">
+    <Key>
+      <PropertyRef Name="clientid" />
+    </Key>
+    <Property Name="clientid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="clientidvar" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientname" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientaddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientphone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientcity" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientstate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientcountry" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientzip" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clienttimezone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientpaytype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientinsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientpointofcontact" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="otlockstatus" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="holidaylockstatus" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="website" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ownername" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="shippingaddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="billingaddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contactemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contactphone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mailingaddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contactowner" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contacttitle" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="type" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="scopeofproject" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientlocation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Projects" Relationship="SaptaerecruitModel.FK_Project_Project" FromRole="Sapta_ClientMaster" ToRole="Project" />
+    <NavigationProperty Name="Sapta_Bdm" Relationship="SaptaerecruitModel.FK_Sapta_Bdm_Sapta_ClientMaster" FromRole="Sapta_ClientMaster" ToRole="Sapta_Bdm" />
+    <NavigationProperty Name="Sapta_ClientManager" Relationship="SaptaerecruitModel.FK_Sapta_ClientManager_Sapta_ClientMaster" FromRole="Sapta_ClientMaster" ToRole="Sapta_ClientManager" />
+    <NavigationProperty Name="Sapta_ClientRecruiter" Relationship="SaptaerecruitModel.FK_Sapta_ClientRecruiter_Sapta_ClientMaster" FromRole="Sapta_ClientMaster" ToRole="Sapta_ClientRecruiter" />
+    <NavigationProperty Name="Sapta_Employees" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_ClientMaster" FromRole="Sapta_ClientMaster" ToRole="Sapta_Employees" />
+  </EntityType>
+  <EntityType Name="Sapta_ClientRecruiter">
+    <Key>
+      <PropertyRef Name="ctrecid" />
+    </Key>
+    <Property Name="ctrecid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ctrecidvar" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrecname" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrectitle" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrecaddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrecemail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrecphone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctreccity" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrecstate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctreczip" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientid" Type="Int32" Nullable="false" />
+    <Property Name="ctrecdept" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrecinsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrecpointofcontactatsapta" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="saptaid" Type="Int32" Nullable="false" />
+    <Property Name="ctrecfirstname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctrecmiddlename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ctreclastname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Sapta_ClientMaster" Relationship="SaptaerecruitModel.FK_Sapta_ClientRecruiter_Sapta_ClientMaster" FromRole="Sapta_ClientRecruiter" ToRole="Sapta_ClientMaster" />
+    <NavigationProperty Name="Sapta_Users" Relationship="SaptaerecruitModel.FK_Sapta_ClientRecruiter_Sapta_Users" FromRole="Sapta_ClientRecruiter" ToRole="Sapta_Users" />
+  </EntityType>
+  <EntityType Name="Sapta_Employees">
+    <Key>
+      <PropertyRef Name="speid" />
+    </Key>
+    <Property Name="speid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="speidvar" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="speSSN" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spename" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="speemail" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="speaddress" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spephone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="specity" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spestate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="specurrentcountry" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="speoriginalcountry" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spevisastatus" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spezip" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spebillrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spepayrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spepaytype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spetype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientid" Type="Int32" Nullable="false" />
+    <Property Name="ctmgrid" Type="Int32" Nullable="false" />
+    <Property Name="speinsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spepointofcontactatsapta" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="saptaid" Type="Int32" Nullable="false" />
+    <Property Name="spefirstname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spemiddlename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spelastname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="speDOB" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spealternate_email" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spealternate_mobile" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_emergency_number" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_father_name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_mother_name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_marital_status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_permanent_address" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_gender" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_misc_one" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_misc_two" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="bdmid" Type="Int32" />
+    <Property Name="hrid" Type="Int32" />
+    <Property Name="spejoiningdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="speacceptancedate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_resumename" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_rtr" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_rateconfirmation" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="statecode" Type="String" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="noof_allowed_leaves" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="overwrite_ot_hours" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="overwrite_holidayhours" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="spe_MSA" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="spe_PO" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="projectID" Type="Int64" />
+    <NavigationProperty Name="Sapta_Bdm" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Bdm" FromRole="Sapta_Employees" ToRole="Sapta_Bdm" />
+    <NavigationProperty Name="Sapta_ClientManager" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_ClientManager" FromRole="Sapta_Employees" ToRole="Sapta_ClientManager" />
+    <NavigationProperty Name="Sapta_ClientMaster" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_ClientMaster" FromRole="Sapta_Employees" ToRole="Sapta_ClientMaster" />
+    <NavigationProperty Name="Sapta_Employees1" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Employees" FromRole="Sapta_Employees" ToRole="Sapta_Employees1" />
+    <NavigationProperty Name="Sapta_Employees2" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Employees" FromRole="Sapta_Employees1" ToRole="Sapta_Employees" />
+    <NavigationProperty Name="Sapta_Users" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Users" FromRole="Sapta_Employees" ToRole="Sapta_Users" />
+    <NavigationProperty Name="Sapta_Timesheet" Relationship="SaptaerecruitModel.FK_Sapta_Timesheet_Sapta_Employees" FromRole="Sapta_Employees" ToRole="Sapta_Timesheet" />
+  </EntityType>
+  <EntityType Name="Sapta_Hr">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="hrname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="hremail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="hrinsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_Invoice">
+    <Key>
+      <PropertyRef Name="invoiceid" />
+    </Key>
+    <Property Name="invoiceid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vendorinvoicenumber" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="dueamount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paidamount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="createdon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="modifiedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="userid" Type="Int64" />
+    <Property Name="misone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mistwo" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="documentname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="notes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="adminnotes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paydate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paidtype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="chequenumber" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="po_id" Type="Int64" />
+    <Property Name="totaldueamount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pob_id" Type="Int64" />
+    <Property Name="suppliername" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contractorid" Type="Int32" />
+    <Property Name="contractorname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_Invoice_ToClients">
+    <Key>
+      <PropertyRef Name="invoiceid" />
+    </Key>
+    <Property Name="invoiceid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vendorinvoicenumber" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="dueamount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paidamount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="createdon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="modifiedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="userid" Type="Int64" />
+    <Property Name="misone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mistwo" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="documentname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="notes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="adminnotes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paydate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paidtype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="chequenumber" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="po_id" Type="Int64" />
+    <Property Name="totaldueamount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="pob_id" Type="Int64" />
+    <Property Name="supplierid" Type="Int64" />
+    <Property Name="suppliername" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="startofweek" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="endofweek" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="clientid" Type="Int32" />
+    <Property Name="clientname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="contractorid" Type="Int32" />
+    <Property Name="contractorname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="billrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="payrate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="reqid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_Monthly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="enddate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paydate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_Monthly_Original">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="enddate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paydate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_NationalHolidays">
+    <Key>
+      <PropertyRef Name="nhid" />
+    </Key>
+    <Property Name="nhid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nationalholiday" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="nhyear" Type="Int32" />
+    <Property Name="nholidayname" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="states_giving_holiday" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_SemiMonthly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="enddate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paydate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sapta_Timesheet">
+    <Key>
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="tid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="speid" Type="Int32" Nullable="false" />
+    <Property Name="startofweek" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="endofweek" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_monday" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_tuesday" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_wednusday" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_thursday" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_friday" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_saturday" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_sunday" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_regular_hours" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_OT_hours" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_holiday_hours" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_total_hours" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_insertedon" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_submittedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ts_acceptedrejectedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="leaves_taken" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="noofworkingdays" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="remarks" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="adminremarks" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="cmremarks" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Sapta_Employees" Relationship="SaptaerecruitModel.FK_Sapta_Timesheet_Sapta_Employees" FromRole="Sapta_Timesheet" ToRole="Sapta_Employees" />
+  </EntityType>
+  <EntityType Name="Sapta_Users">
+    <Key>
+      <PropertyRef Name="saptaid" />
+    </Key>
+    <Property Name="saptaid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="password" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="saptausertype" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="recordinsertedon" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="saptauser" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="emailid" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Expenses" Relationship="SaptaerecruitModel.FK_Expenses_Sapta_Users" FromRole="Sapta_Users" ToRole="Expenses" />
+    <NavigationProperty Name="Sapta_ClientManager" Relationship="SaptaerecruitModel.FK_Sapta_ClientManager_Sapta_Users" FromRole="Sapta_Users" ToRole="Sapta_ClientManager" />
+    <NavigationProperty Name="Sapta_ClientRecruiter" Relationship="SaptaerecruitModel.FK_Sapta_ClientRecruiter_Sapta_Users" FromRole="Sapta_Users" ToRole="Sapta_ClientRecruiter" />
+    <NavigationProperty Name="Sapta_Employees" Relationship="SaptaerecruitModel.FK_Sapta_Employees_Sapta_Users" FromRole="Sapta_Users" ToRole="Sapta_Employees" />
+  </EntityType>
+  <EntityType Name="Sapta_Weekly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="enddate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="paydate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="supplier_id" />
+    </Key>
+    <Property Name="supplier_id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="supplier_name" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_email" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_phone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_address" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_contact_person" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_contact_person_email" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_contact_person_phone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_contact_person_id" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_zip" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_fein" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_dba" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="supplier_state" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="password" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="supplier_UserId" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="PurchaseOrders" Relationship="SaptaerecruitModel.FK_PurchaseOrders_Suppliers" FromRole="Suppliers" ToRole="PurchaseOrders" />
+    <NavigationProperty Name="PurchaseRequests" Relationship="SaptaerecruitModel.FK_PurchaseRequests_Suppliers" FromRole="Suppliers" ToRole="PurchaseRequests" />
+  </EntityType>
+  <EntityType Name="t">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="email" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ish1bcandidate" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tempPayroll">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ConsultantName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Duration" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="RegHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="OtHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="HoliHours" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="GrossRevenue" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BillRate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PayRate" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EmpPay" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="EmpPayroll" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BCP" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="NetProfit" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CommPercent" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CommAmount" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StandardDeduction" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="uid" />
+    </Key>
+    <Property Name="uid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="firstname" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="lastname" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="middlename" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="fullname" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="emailid" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="gender" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="dob" Type="DateTime" />
+    <Property Name="phone" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="mobile" Type="Int32" />
+    <Property Name="address" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="state" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="country" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="role" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="sendemail" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="vendorrequirement">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="vendoremail" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="vendorname" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="comments" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="status" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vendor">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vendorname" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="vendoremail" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="phone" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vendors_old">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vendorname" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="vendoremail" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="phone" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vendorsALL">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vendorname" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="vendoremail" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="phone" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Expenses_ExpenseCategories">
+    <End Role="ExpenseCategories" Type="SaptaerecruitModel.ExpenseCategory" Multiplicity="0..1" />
+    <End Role="Expenses" Type="SaptaerecruitModel.Expens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseCategories">
+        <PropertyRef Name="ExpenseCategoryId" />
+      </Principal>
+      <Dependent Role="Expenses">
+        <PropertyRef Name="ExpenseType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Expenses_Sapta_Users">
+    <End Role="Sapta_Users" Type="SaptaerecruitModel.Sapta_Users" Multiplicity="0..1" />
+    <End Role="Expenses" Type="SaptaerecruitModel.Expens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Users">
+        <PropertyRef Name="saptaid" />
+      </Principal>
+      <Dependent Role="Expenses">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JobSeekerEducationDetails_JobSeekerInfo">
+    <End Role="JobSeekerInfo" Type="SaptaerecruitModel.JobSeekerInfo" Multiplicity="1" />
+    <End Role="JobSeekerEducationDetails" Type="SaptaerecruitModel.JobSeekerEducationDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeekerInfo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="JobSeekerEducationDetails">
+        <PropertyRef Name="jid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JobSeekerEmploymentDetails_JobSeekerInfo">
+    <End Role="JobSeekerInfo" Type="SaptaerecruitModel.JobSeekerInfo" Multiplicity="1" />
+    <End Role="JobSeekerEmploymentDetails" Type="SaptaerecruitModel.JobSeekerEmploymentDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeekerInfo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="JobSeekerEmploymentDetails">
+        <PropertyRef Name="jobseekerid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_jobseekerHome_JobSeekerInfo">
+    <End Role="JobSeekerInfo" Type="SaptaerecruitModel.JobSeekerInfo" Multiplicity="1" />
+    <End Role="jobseekerHome" Type="SaptaerecruitModel.jobseekerHome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeekerInfo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="jobseekerHome">
+        <PropertyRef Name="jobseekerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Project_Project">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Sapta_ClientMaster" Multiplicity="0..1" />
+    <End Role="Project" Type="SaptaerecruitModel.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseOrders_Suppliers">
+    <End Role="Suppliers" Type="SaptaerecruitModel.Supplier" Multiplicity="0..1" />
+    <End Role="PurchaseOrders" Type="SaptaerecruitModel.PurchaseOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="supplier_id" />
+      </Principal>
+      <Dependent Role="PurchaseOrders">
+        <PropertyRef Name="po_issued_to_supplier_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Receipts_Info_Suppliers">
+    <End Role="PurchaseOrders" Type="SaptaerecruitModel.PurchaseOrder" Multiplicity="0..1" />
+    <End Role="Receipts_Info" Type="SaptaerecruitModel.Receipts_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchaseOrders">
+        <PropertyRef Name="po_id" />
+      </Principal>
+      <Dependent Role="Receipts_Info">
+        <PropertyRef Name="receipt_of_po" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseRequests_Suppliers">
+    <End Role="Suppliers" Type="SaptaerecruitModel.Supplier" Multiplicity="0..1" />
+    <End Role="PurchaseRequests" Type="SaptaerecruitModel.PurchaseRequest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="supplier_id" />
+      </Principal>
+      <Dependent Role="PurchaseRequests">
+        <PropertyRef Name="pr_received_by_supplier_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Bdm_Sapta_Bdm_Master">
+    <End Role="Sapta_Bdm_Master" Type="SaptaerecruitModel.Sapta_Bdm_Master" Multiplicity="0..1" />
+    <End Role="Sapta_Bdm" Type="SaptaerecruitModel.Sapta_Bdm" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Bdm_Master">
+        <PropertyRef Name="bdmid" />
+      </Principal>
+      <Dependent Role="Sapta_Bdm">
+        <PropertyRef Name="bdmid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Bdm_Sapta_ClientMaster">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Sapta_ClientMaster" Multiplicity="0..1" />
+    <End Role="Sapta_Bdm" Type="SaptaerecruitModel.Sapta_Bdm" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Sapta_Bdm">
+        <PropertyRef Name="bdmclientid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_Bdm">
+    <End Role="Sapta_Bdm" Type="SaptaerecruitModel.Sapta_Bdm" Multiplicity="0..1" />
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Sapta_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Bdm">
+        <PropertyRef Name="bid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees">
+        <PropertyRef Name="bdmid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_ClientManager_Sapta_ClientMaster">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Sapta_ClientMaster" Multiplicity="1" />
+    <End Role="Sapta_ClientManager" Type="SaptaerecruitModel.Sapta_ClientManager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Sapta_ClientManager">
+        <PropertyRef Name="clientid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_ClientManager_Sapta_Users">
+    <End Role="Sapta_Users" Type="SaptaerecruitModel.Sapta_Users" Multiplicity="1" />
+    <End Role="Sapta_ClientManager" Type="SaptaerecruitModel.Sapta_ClientManager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Users">
+        <PropertyRef Name="saptaid" />
+      </Principal>
+      <Dependent Role="Sapta_ClientManager">
+        <PropertyRef Name="saptaid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_ClientManager">
+    <End Role="Sapta_ClientManager" Type="SaptaerecruitModel.Sapta_ClientManager" Multiplicity="1" />
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Sapta_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientManager">
+        <PropertyRef Name="ctmgrid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees">
+        <PropertyRef Name="ctmgrid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_ClientRecruiter_Sapta_ClientMaster">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Sapta_ClientMaster" Multiplicity="1" />
+    <End Role="Sapta_ClientRecruiter" Type="SaptaerecruitModel.Sapta_ClientRecruiter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Sapta_ClientRecruiter">
+        <PropertyRef Name="clientid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_ClientMaster">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Sapta_ClientMaster" Multiplicity="1" />
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Sapta_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees">
+        <PropertyRef Name="clientid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_ClientRecruiter_Sapta_Users">
+    <End Role="Sapta_Users" Type="SaptaerecruitModel.Sapta_Users" Multiplicity="1" />
+    <End Role="Sapta_ClientRecruiter" Type="SaptaerecruitModel.Sapta_ClientRecruiter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Users">
+        <PropertyRef Name="saptaid" />
+      </Principal>
+      <Dependent Role="Sapta_ClientRecruiter">
+        <PropertyRef Name="saptaid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_Employees">
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Sapta_Employees" Multiplicity="1" />
+    <End Role="Sapta_Employees1" Type="SaptaerecruitModel.Sapta_Employees" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Employees">
+        <PropertyRef Name="speid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees1">
+        <PropertyRef Name="speid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_Users">
+    <End Role="Sapta_Users" Type="SaptaerecruitModel.Sapta_Users" Multiplicity="1" />
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Sapta_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Users">
+        <PropertyRef Name="saptaid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees">
+        <PropertyRef Name="saptaid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Timesheet_Sapta_Employees">
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Sapta_Employees" Multiplicity="1" />
+    <End Role="Sapta_Timesheet" Type="SaptaerecruitModel.Sapta_Timesheet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Employees">
+        <PropertyRef Name="speid" />
+      </Principal>
+      <Dependent Role="Sapta_Timesheet">
+        <PropertyRef Name="speid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

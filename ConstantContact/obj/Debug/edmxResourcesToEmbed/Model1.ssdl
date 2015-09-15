@@ -1,0 +1,2286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SaptaerecruitModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SaptaerecruitModelStoreContainer">
+    <EntitySet Name="adminnotes" EntityType="SaptaerecruitModel.Store.adminnotes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="adminrequirments" EntityType="SaptaerecruitModel.Store.adminrequirments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="allresumeextracts" EntityType="SaptaerecruitModel.Store.allresumeextracts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="allresumes" EntityType="SaptaerecruitModel.Store.allresumes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="assessperformance" EntityType="SaptaerecruitModel.Store.assessperformance" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BasePurchaseOrders" EntityType="SaptaerecruitModel.Store.BasePurchaseOrders" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="candidatedetails" EntityType="SaptaerecruitModel.Store.candidatedetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="candidateinterviewdetails" EntityType="SaptaerecruitModel.Store.candidateinterviewdetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="candidatelog" EntityType="SaptaerecruitModel.Store.candidatelog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="clientinf" EntityType="SaptaerecruitModel.Store.clientinf" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="clientinvoices" EntityType="SaptaerecruitModel.Store.clientinvoices" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmailInfo" EntityType="SaptaerecruitModel.Store.EmailInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employee_Master" EntityType="SaptaerecruitModel.Store.Employee_Master" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ExpenseCategories" EntityType="SaptaerecruitModel.Store.ExpenseCategories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Expenses" EntityType="SaptaerecruitModel.Store.Expenses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="hireextensions" EntityType="SaptaerecruitModel.Store.hireextensions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="JobSeekerEducationDetails" EntityType="SaptaerecruitModel.Store.JobSeekerEducationDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="JobSeekerEmploymentDetails" EntityType="SaptaerecruitModel.Store.JobSeekerEmploymentDetails" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="jobseekerHome" EntityType="SaptaerecruitModel.Store.jobseekerHome" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="JobSeekerInfo" EntityType="SaptaerecruitModel.Store.JobSeekerInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Leaves" EntityType="SaptaerecruitModel.Store.Leaves" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LoginHistory" EntityType="SaptaerecruitModel.Store.LoginHistory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PayrollVM" EntityType="SaptaerecruitModel.Store.PayrollVM" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProcessPayroll" EntityType="SaptaerecruitModel.Store.ProcessPayroll" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Project" EntityType="SaptaerecruitModel.Store.Project" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseOrders" EntityType="SaptaerecruitModel.Store.PurchaseOrders" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseRequests" EntityType="SaptaerecruitModel.Store.PurchaseRequests" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="questionnaire" EntityType="SaptaerecruitModel.Store.questionnaire" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Receipts_Info" EntityType="SaptaerecruitModel.Store.Receipts_Info" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RecentItems" EntityType="SaptaerecruitModel.Store.RecentItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RecentReqItems" EntityType="SaptaerecruitModel.Store.RecentReqItems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ReportDashBoard" EntityType="SaptaerecruitModel.Store.ReportDashBoard" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="resumeextracts" EntityType="SaptaerecruitModel.Store.resumeextracts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="resumeInfo" EntityType="SaptaerecruitModel.Store.resumeInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Bdm" EntityType="SaptaerecruitModel.Store.Sapta_Bdm" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Bdm_Master" EntityType="SaptaerecruitModel.Store.Sapta_Bdm_Master" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_BiWeekly" EntityType="SaptaerecruitModel.Store.Sapta_BiWeekly" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_BiWeekly_Original" EntityType="SaptaerecruitModel.Store.Sapta_BiWeekly_Original" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_ClientManager" EntityType="SaptaerecruitModel.Store.Sapta_ClientManager" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_ClientMaster" EntityType="SaptaerecruitModel.Store.Sapta_ClientMaster" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_ClientRecruiter" EntityType="SaptaerecruitModel.Store.Sapta_ClientRecruiter" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Employees" EntityType="SaptaerecruitModel.Store.Sapta_Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Hr" EntityType="SaptaerecruitModel.Store.Sapta_Hr" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Invoice" EntityType="SaptaerecruitModel.Store.Sapta_Invoice" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Invoice_ToClients" EntityType="SaptaerecruitModel.Store.Sapta_Invoice_ToClients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Monthly" EntityType="SaptaerecruitModel.Store.Sapta_Monthly" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Monthly_Original" EntityType="SaptaerecruitModel.Store.Sapta_Monthly_Original" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_NationalHolidays" EntityType="SaptaerecruitModel.Store.Sapta_NationalHolidays" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_SemiMonthly" EntityType="SaptaerecruitModel.Store.Sapta_SemiMonthly" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Timesheet" EntityType="SaptaerecruitModel.Store.Sapta_Timesheet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Users" EntityType="SaptaerecruitModel.Store.Sapta_Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sapta_Weekly" EntityType="SaptaerecruitModel.Store.Sapta_Weekly" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Suppliers" EntityType="SaptaerecruitModel.Store.Suppliers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="t" EntityType="SaptaerecruitModel.Store.t" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tempPayroll" EntityType="SaptaerecruitModel.Store.tempPayroll" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="users" EntityType="SaptaerecruitModel.Store.users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="vendorrequirements" EntityType="SaptaerecruitModel.Store.vendorrequirements" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="vendors" EntityType="SaptaerecruitModel.Store.vendors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="vendors_old" EntityType="SaptaerecruitModel.Store.vendors_old" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="vendorsALL" EntityType="SaptaerecruitModel.Store.vendorsALL" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Expenses_ExpenseCategories" Association="SaptaerecruitModel.Store.FK_Expenses_ExpenseCategories">
+      <End Role="ExpenseCategories" EntitySet="ExpenseCategories" />
+      <End Role="Expenses" EntitySet="Expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Expenses_Sapta_Users" Association="SaptaerecruitModel.Store.FK_Expenses_Sapta_Users">
+      <End Role="Sapta_Users" EntitySet="Sapta_Users" />
+      <End Role="Expenses" EntitySet="Expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JobSeekerEducationDetails_JobSeekerInfo" Association="SaptaerecruitModel.Store.FK_JobSeekerEducationDetails_JobSeekerInfo">
+      <End Role="JobSeekerInfo" EntitySet="JobSeekerInfo" />
+      <End Role="JobSeekerEducationDetails" EntitySet="JobSeekerEducationDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_JobSeekerEmploymentDetails_JobSeekerInfo" Association="SaptaerecruitModel.Store.FK_JobSeekerEmploymentDetails_JobSeekerInfo">
+      <End Role="JobSeekerInfo" EntitySet="JobSeekerInfo" />
+      <End Role="JobSeekerEmploymentDetails" EntitySet="JobSeekerEmploymentDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_jobseekerHome_JobSeekerInfo" Association="SaptaerecruitModel.Store.FK_jobseekerHome_JobSeekerInfo">
+      <End Role="JobSeekerInfo" EntitySet="JobSeekerInfo" />
+      <End Role="jobseekerHome" EntitySet="jobseekerHome" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Project_Project" Association="SaptaerecruitModel.Store.FK_Project_Project">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Project" EntitySet="Project" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseOrders_Suppliers" Association="SaptaerecruitModel.Store.FK_PurchaseOrders_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="PurchaseOrders" EntitySet="PurchaseOrders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseRequests_Suppliers" Association="SaptaerecruitModel.Store.FK_PurchaseRequests_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="PurchaseRequests" EntitySet="PurchaseRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Receipts_Info_Suppliers" Association="SaptaerecruitModel.Store.FK_Receipts_Info_Suppliers">
+      <End Role="PurchaseOrders" EntitySet="PurchaseOrders" />
+      <End Role="Receipts_Info" EntitySet="Receipts_Info" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Bdm_Sapta_Bdm_Master" Association="SaptaerecruitModel.Store.FK_Sapta_Bdm_Sapta_Bdm_Master">
+      <End Role="Sapta_Bdm_Master" EntitySet="Sapta_Bdm_Master" />
+      <End Role="Sapta_Bdm" EntitySet="Sapta_Bdm" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Bdm_Sapta_ClientMaster" Association="SaptaerecruitModel.Store.FK_Sapta_Bdm_Sapta_ClientMaster">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Sapta_Bdm" EntitySet="Sapta_Bdm" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_ClientManager_Sapta_ClientMaster" Association="SaptaerecruitModel.Store.FK_Sapta_ClientManager_Sapta_ClientMaster">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Sapta_ClientManager" EntitySet="Sapta_ClientManager" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_ClientManager_Sapta_Users" Association="SaptaerecruitModel.Store.FK_Sapta_ClientManager_Sapta_Users">
+      <End Role="Sapta_Users" EntitySet="Sapta_Users" />
+      <End Role="Sapta_ClientManager" EntitySet="Sapta_ClientManager" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_ClientRecruiter_Sapta_ClientMaster" Association="SaptaerecruitModel.Store.FK_Sapta_ClientRecruiter_Sapta_ClientMaster">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Sapta_ClientRecruiter" EntitySet="Sapta_ClientRecruiter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_ClientRecruiter_Sapta_Users" Association="SaptaerecruitModel.Store.FK_Sapta_ClientRecruiter_Sapta_Users">
+      <End Role="Sapta_Users" EntitySet="Sapta_Users" />
+      <End Role="Sapta_ClientRecruiter" EntitySet="Sapta_ClientRecruiter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_Bdm" Association="SaptaerecruitModel.Store.FK_Sapta_Employees_Sapta_Bdm">
+      <End Role="Sapta_Bdm" EntitySet="Sapta_Bdm" />
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_ClientManager" Association="SaptaerecruitModel.Store.FK_Sapta_Employees_Sapta_ClientManager">
+      <End Role="Sapta_ClientManager" EntitySet="Sapta_ClientManager" />
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_ClientMaster" Association="SaptaerecruitModel.Store.FK_Sapta_Employees_Sapta_ClientMaster">
+      <End Role="Sapta_ClientMaster" EntitySet="Sapta_ClientMaster" />
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_Employees" Association="SaptaerecruitModel.Store.FK_Sapta_Employees_Sapta_Employees">
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+      <End Role="Sapta_Employees1" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Employees_Sapta_Users" Association="SaptaerecruitModel.Store.FK_Sapta_Employees_Sapta_Users">
+      <End Role="Sapta_Users" EntitySet="Sapta_Users" />
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sapta_Timesheet_Sapta_Employees" Association="SaptaerecruitModel.Store.FK_Sapta_Timesheet_Sapta_Employees">
+      <End Role="Sapta_Employees" EntitySet="Sapta_Employees" />
+      <End Role="Sapta_Timesheet" EntitySet="Sapta_Timesheet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="adminnotes">
+    <Key>
+      <PropertyRef Name="adminnoteid" />
+    </Key>
+    <Property Name="adminnoteid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="resumeid" Type="int" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="noteschangedondate" Type="nvarchar(max)" />
+    <Property Name="notes" Type="nvarchar(max)" />
+    <Property Name="action" Type="nvarchar(max)" />
+    <Property Name="updatedby" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="adminrequirments">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="requirement" Type="nvarchar(max)" />
+    <Property Name="requirmentfilename" Type="nvarchar(max)" />
+    <Property Name="clientName" Type="nvarchar(max)" />
+    <Property Name="department" Type="nvarchar(max)" />
+    <Property Name="employmentType" Type="nvarchar(max)" />
+    <Property Name="duration" Type="nvarchar" MaxLength="50" />
+    <Property Name="clientemailid" Type="nvarchar(max)" />
+    <Property Name="subject" Type="nvarchar(max)" />
+    <Property Name="billrate" Type="nvarchar(max)" />
+    <Property Name="payrate" Type="nvarchar(max)" />
+    <Property Name="recruiterid" Type="int" />
+    <Property Name="techadminid" Type="int" />
+    <Property Name="righttorepresent" Type="nvarchar" MaxLength="50" />
+    <Property Name="emailbody" Type="nvarchar(max)" />
+    <Property Name="postedbyBDM" Type="nvarchar(max)" />
+    <Property Name="postedbyBDMemail" Type="nvarchar(max)" />
+    <Property Name="status" Type="nvarchar(max)" />
+    <Property Name="vendorstatus" Type="nvarchar(max)" />
+    <Property Name="noofresumes" Type="int" />
+    <Property Name="SSNrequired" Type="nvarchar" MaxLength="50" />
+    <Property Name="startDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="noofrequiredskills" Type="int" />
+    <Property Name="allskills" Type="nvarchar(max)" />
+    <Property Name="showquestionnaires" Type="nvarchar" MaxLength="1" />
+    <Property Name="uploadeddate" Type="nvarchar(max)" />
+    <Property Name="requirementlocation" Type="nvarchar(max)" />
+    <Property Name="recruiteremailid" Type="nvarchar(max)" />
+    <Property Name="techadminemailid" Type="nchar" MaxLength="50" />
+    <Property Name="closingdate" Type="nvarchar(max)" />
+    <Property Name="duration_indays" Type="int" />
+    <Property Name="extsalesmgr" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="allresumeextracts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="Phone" Type="nvarchar(max)" />
+    <Property Name="Mobile" Type="nvarchar(max)" />
+    <Property Name="ZipCode" Type="nvarchar(max)" />
+    <Property Name="StateCode" Type="nvarchar(max)" />
+    <Property Name="StateName" Type="nvarchar(max)" />
+    <Property Name="City" Type="nvarchar(max)" />
+    <Property Name="Street" Type="nvarchar(max)" />
+    <Property Name="CurrentAddress" Type="nvarchar(max)" />
+    <Property Name="PermanentAddress" Type="nvarchar(max)" />
+    <Property Name="DOB" Type="nvarchar(max)" />
+    <Property Name="URL" Type="nvarchar(max)" />
+    <Property Name="LINKEDIN" Type="nvarchar(max)" />
+    <Property Name="TWITTER" Type="nvarchar(max)" />
+    <Property Name="SKYPEID" Type="nvarchar(max)" />
+    <Property Name="TotalExp" Type="nvarchar(max)" />
+    <Property Name="RelevantExp" Type="nvarchar(max)" />
+    <Property Name="Skills" Type="nvarchar(max)" />
+    <Property Name="Companies" Type="nvarchar(max)" />
+    <Property Name="CompanyLocations" Type="nvarchar(max)" />
+    <Property Name="AreasOfExpertize" Type="nvarchar(max)" />
+    <Property Name="Certifications" Type="nvarchar(max)" />
+    <Property Name="VisaStatus" Type="nvarchar(max)" />
+    <Property Name="EducationDetails" Type="nvarchar(max)" />
+    <Property Name="Roles" Type="nvarchar(max)" />
+    <Property Name="resumeid" Type="bigint" />
+    <Property Name="resumename" Type="nvarchar(max)" />
+    <Property Name="SSN" Type="nvarchar(max)" />
+    <Property Name="Rank" Type="int" />
+    <Property Name="LineNumber" Type="int" />
+    <Property Name="ish1bcandidate" Type="bit" />
+  </EntityType>
+  <EntityType Name="allresumes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="resume" Type="nvarchar(max)" />
+    <Property Name="keywords" Type="nvarchar" MaxLength="50" />
+    <Property Name="contents" Type="nvarchar(max)" />
+    <Property Name="ish1bcandidate" Type="bit" />
+  </EntityType>
+  <EntityType Name="assessperformance">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="recruiterrname" Type="nvarchar(max)" />
+    <Property Name="performance" Type="nvarchar" MaxLength="150" />
+    <Property Name="dateofeavluation" Type="nvarchar" MaxLength="150" />
+    <Property Name="noofmonthlylogos" Type="int" />
+    <Property Name="noofweeklylogos" Type="int" />
+    <Property Name="totalnooflogos" Type="int" />
+    <Property Name="recruiteremailid" Type="nvarchar(max)" />
+    <Property Name="evaluatestatus" Type="nvarchar" MaxLength="10" />
+    <Property Name="performancelogo" Type="int" />
+  </EntityType>
+  <EntityType Name="BasePurchaseOrders">
+    <Key>
+      <PropertyRef Name="pob_id" />
+    </Key>
+    <Property Name="pob_id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="pob_generated_on" Type="datetime" />
+    <Property Name="total_amount" Type="decimal" />
+    <Property Name="valid_upto" Type="datetime" />
+    <Property Name="pob_initiallyraised_by" Type="nvarchar(max)" />
+    <Property Name="pob_issued_to" Type="nvarchar(max)" />
+    <Property Name="pob_issued_to_supplier_id" Type="bigint" />
+    <Property Name="pob_raised_for" Type="nvarchar(max)" />
+    <Property Name="pob_raised-for_id" Type="nvarchar(max)" />
+    <Property Name="isapproved" Type="bit" />
+    <Property Name="netterms" Type="nvarchar(max)" />
+    <Property Name="joiningdate" Type="datetime" />
+    <Property Name="billrate" Type="decimal" />
+    <Property Name="due_amount" Type="decimal" />
+    <Property Name="joblocation" Type="nvarchar(max)" />
+    <Property Name="employee_type" Type="nvarchar(max)" />
+    <Property Name="HRmail" Type="nvarchar(max)" />
+    <Property Name="SalesDirectormail" Type="nvarchar(max)" />
+    <Property Name="pob_raised_for_client" Type="nvarchar(max)" />
+    <Property Name="pob_raised_for_client_id" Type="int" />
+    <Property Name="isinitial" Type="bit" />
+    <Property Name="clientInvoiceId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="candidatedetails">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="firstname" Type="nvarchar(max)" />
+    <Property Name="lastname" Type="nvarchar(max)" />
+    <Property Name="contactaddress" Type="nvarchar(max)" />
+    <Property Name="emailid" Type="nvarchar(max)" />
+    <Property Name="contactnumber" Type="nvarchar(max)" />
+    <Property Name="createdon" Type="nvarchar(max)" />
+    <Property Name="owner" Type="nvarchar(max)" />
+    <Property Name="source" Type="nvarchar(max)" />
+    <Property Name="currentjobtitle" Type="nvarchar(max)" />
+    <Property Name="currentemployer" Type="nvarchar(max)" />
+    <Property Name="skillset" Type="nvarchar(max)" />
+    <Property Name="expextedsalary" Type="nvarchar(max)" />
+    <Property Name="qualification" Type="nvarchar(max)" />
+    <Property Name="additionalinfo" Type="nvarchar(max)" />
+    <Property Name="currentsalary" Type="nvarchar(max)" />
+    <Property Name="resumename" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="candidateinterviewdetails">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="candidatename" Type="nvarchar(max)" />
+    <Property Name="emailid" Type="nvarchar(max)" />
+    <Property Name="mobileno" Type="nvarchar(max)" />
+    <Property Name="clientname" Type="nvarchar(max)" />
+    <Property Name="clientmanager" Type="nvarchar(max)" />
+    <Property Name="clientmanageremail" Type="nvarchar(max)" />
+    <Property Name="clientmanagermobile" Type="nvarchar(max)" />
+    <Property Name="interviewtimeslot" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="candidatelog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="candidatename" Type="nvarchar(max)" />
+    <Property Name="email" Type="nvarchar" MaxLength="100" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="feedback" Type="nvarchar(max)" />
+    <Property Name="recruiteremail" Type="nvarchar" MaxLength="50" />
+    <Property Name="dateofinsertion" Type="nvarchar" MaxLength="50" />
+    <Property Name="requirement" Type="nvarchar(max)" />
+    <Property Name="skills" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="clientinf">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="clientname" Type="nvarchar(max)" />
+    <Property Name="clientmailid" Type="nvarchar(max)" />
+    <Property Name="clientlocation" Type="nvarchar(max)" />
+    <Property Name="clientphone" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="clientinvoices">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="clientid" Type="int" />
+    <Property Name="clientname" Type="nvarchar(max)" />
+    <Property Name="contractorid" Type="int" />
+    <Property Name="contractorname" Type="nvarchar(max)" />
+    <Property Name="supplierid" Type="int" />
+    <Property Name="suppliername" Type="nvarchar(max)" />
+    <Property Name="billrate" Type="nvarchar(max)" />
+    <Property Name="payrate" Type="nvarchar(max)" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="noofhours" Type="decimal" />
+    <Property Name="misc1" Type="nvarchar(max)" />
+    <Property Name="misc2" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="EmailInfo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="foldername" Type="nvarchar(max)" />
+    <Property Name="subject" Type="nvarchar(max)" />
+    <Property Name="mailcontent" Type="nvarchar(max)" />
+    <Property Name="insertedon" Type="datetime" />
+    <Property Name="insertedby" Type="nvarchar(max)" />
+    <Property Name="fromemail" Type="nvarchar(max)" />
+    <Property Name="maildate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Employee_Master">
+    <Key>
+      <PropertyRef Name="empmid" />
+    </Key>
+    <Property Name="empmid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="empmfirstname" Type="nvarchar(max)" />
+    <Property Name="empmlastname" Type="nvarchar(max)" />
+    <Property Name="empmiddlename" Type="nvarchar(max)" />
+    <Property Name="empmname" Type="nvarchar(max)" />
+    <Property Name="empmemail" Type="nvarchar(max)" />
+    <Property Name="empmalternativeemail" Type="nvarchar(max)" />
+    <Property Name="empmmobileno" Type="nvarchar(max)" />
+    <Property Name="empmphoneno" Type="nvarchar(max)" />
+    <Property Name="empmaddress" Type="nvarchar(max)" />
+    <Property Name="empmcity" Type="nvarchar(max)" />
+    <Property Name="empmstate" Type="nvarchar(max)" />
+    <Property Name="empmcountry" Type="nvarchar(max)" />
+    <Property Name="empmSSN" Type="nvarchar(max)" />
+    <Property Name="empmvisastatus" Type="nvarchar(max)" />
+    <Property Name="empmcurrentcity" Type="nvarchar(max)" />
+    <Property Name="empmcurrentcountry" Type="nvarchar(max)" />
+    <Property Name="empmoriginalcountry" Type="nvarchar(max)" />
+    <Property Name="empmgender" Type="nvarchar(max)" />
+    <Property Name="empmmaritualstatus" Type="nvarchar(max)" />
+    <Property Name="empmdob" Type="nvarchar(max)" />
+    <Property Name="empmfathername" Type="nvarchar(max)" />
+    <Property Name="empmmothername" Type="nvarchar(max)" />
+    <Property Name="empminsertedon" Type="nvarchar(max)" />
+    <Property Name="empstatus" Type="nvarchar(max)" />
+    <Property Name="empzip" Type="nvarchar(max)" />
+    <Property Name="empmtype" Type="nvarchar(max)" />
+    <Property Name="empmpayfrequncy" Type="nvarchar(max)" />
+    <Property Name="hrstatus" Type="nvarchar(max)" />
+    <Property Name="bdmstatus" Type="nvarchar(max)" />
+    <Property Name="empbillrate" Type="nvarchar(max)" />
+    <Property Name="emppayrate" Type="nvarchar(max)" />
+    <Property Name="clientname" Type="nvarchar(max)" />
+    <Property Name="clientemail" Type="nvarchar(max)" />
+    <Property Name="clientmanager" Type="nvarchar(max)" />
+    <Property Name="clientmanageremail" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ExpenseCategories">
+    <Key>
+      <PropertyRef Name="ExpenseCategoryId" />
+    </Key>
+    <Property Name="ExpenseCategoryId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Expenses">
+    <Key>
+      <PropertyRef Name="ExpenseSheetId" />
+    </Key>
+    <Property Name="ExpenseSheetId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeID" Type="int" />
+    <Property Name="ExpensesOnDate" Type="nvarchar" MaxLength="50" />
+    <Property Name="InsertedOn" Type="nvarchar" MaxLength="50" />
+    <Property Name="ExpenseType" Type="int" />
+    <Property Name="Amount" Type="nvarchar" MaxLength="50" />
+    <Property Name="FilePath" Type="nvarchar(max)" />
+    <Property Name="IsApproved" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="hireextensions">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="resumeid" Type="int" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="candidatename" Type="nvarchar(max)" />
+    <Property Name="candidateemail" Type="nvarchar(max)" />
+    <Property Name="procurementmgrname" Type="nvarchar(max)" />
+    <Property Name="procurementmgremail" Type="nvarchar(max)" />
+    <Property Name="clientname" Type="nvarchar(max)" />
+    <Property Name="clientemail" Type="nvarchar(max)" />
+    <Property Name="joblocation" Type="nvarchar(max)" />
+    <Property Name="agreedpayrate" Type="nvarchar(max)" />
+    <Property Name="permanenthire" Type="nchar" MaxLength="10" />
+    <Property Name="howsoontohire" Type="nvarchar(max)" />
+    <Property Name="extendcontract" Type="nchar" MaxLength="10" />
+    <Property Name="howlongextension" Type="nvarchar(max)" />
+    <Property Name="joiningdate" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="JobSeekerEducationDetails">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="jid" Type="bigint" Nullable="false" />
+    <Property Name="primaryeducation" Type="nvarchar(max)" />
+    <Property Name="pestartyear" Type="int" />
+    <Property Name="peendyear" Type="int" />
+    <Property Name="pepercentage" Type="float" />
+    <Property Name="secondaryeducation" Type="nvarchar(max)" />
+    <Property Name="sestartyear" Type="int" />
+    <Property Name="seendyear" Type="int" />
+    <Property Name="sepercentage" Type="float" />
+    <Property Name="graduation" Type="nvarchar(max)" />
+    <Property Name="gestartyear" Type="int" />
+    <Property Name="geendyear" Type="int" />
+    <Property Name="gepercentage" Type="float" />
+    <Property Name="othereducation" Type="nvarchar(max)" />
+    <Property Name="oestartyear" Type="int" />
+    <Property Name="oeendyear" Type="int" />
+    <Property Name="oepercentage" Type="float" />
+  </EntityType>
+  <EntityType Name="JobSeekerEmploymentDetails">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="jobseekerid" Type="bigint" Nullable="false" />
+    <Property Name="workexperince" Type="nvarchar(max)" />
+    <Property Name="currentsalary" Type="float" />
+    <Property Name="currentcomapnyname" Type="nvarchar(max)" />
+    <Property Name="fromyear" Type="nvarchar" MaxLength="50" />
+    <Property Name="toyear" Type="nvarchar" MaxLength="50" />
+    <Property Name="keyskills" Type="nvarchar(max)" />
+    <Property Name="resumename" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="jobseekerHome">
+    <Key>
+      <PropertyRef Name="applicationId" />
+    </Key>
+    <Property Name="applicationId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="jobseekerId" Type="bigint" Nullable="false" />
+    <Property Name="requirementId" Type="nvarchar(max)" />
+    <Property Name="isApplied" Type="bit" />
+    <Property Name="appliedOn" Type="date" />
+    <Property Name="recruiterEmailId" Type="nvarchar(max)" />
+    <Property Name="requirementUploadBy" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="JobSeekerInfo">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="firstname" Type="nvarchar(max)" />
+    <Property Name="lastname" Type="nvarchar(max)" />
+    <Property Name="middlename" Type="nvarchar(max)" />
+    <Property Name="emailid" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="password" Type="nvarchar(max)" />
+    <Property Name="mobileno" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Leaves">
+    <Key>
+      <PropertyRef Name="LeaveId" />
+    </Key>
+    <Property Name="LeaveId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LeaveCode" Type="varchar" MaxLength="3" />
+    <Property Name="LeaveName" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="LoginHistory">
+    <Key>
+      <PropertyRef Name="HistoryId" />
+    </Key>
+    <Property Name="HistoryId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="User Name" Type="nvarchar(max)" />
+    <Property Name="Login Time" Type="datetime" />
+    <Property Name="Source Ip" Type="nvarchar(max)" />
+    <Property Name="Location" Type="nvarchar(max)" />
+    <Property Name="Login Type" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar(max)" />
+    <Property Name="Browser" Type="nvarchar(max)" />
+    <Property Name="Platform" Type="nvarchar(max)" />
+    <Property Name="Application" Type="nvarchar(max)" />
+    <Property Name="Login URL" Type="nvarchar(max)" />
+    <Property Name="ISP" Type="nvarchar(max)" />
+    <Property Name="LatitudeLongitude" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="PayrollVM">
+    <Key>
+      <PropertyRef Name="payrollid" />
+    </Key>
+    <Property Name="payrollid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="speid" Type="int" />
+    <Property Name="ConsultantName" Type="nvarchar(max)" />
+    <Property Name="Duration" Type="nvarchar(max)" />
+    <Property Name="RegHours" Type="nvarchar(max)" />
+    <Property Name="OtHours" Type="nvarchar(max)" />
+    <Property Name="HoliHours" Type="nvarchar(max)" />
+    <Property Name="GrossRevenue" Type="nvarchar(max)" />
+    <Property Name="BillRate" Type="nvarchar(max)" />
+    <Property Name="PayRate" Type="nvarchar(max)" />
+    <Property Name="EmpPay" Type="nvarchar(max)" />
+    <Property Name="EmpPayroll" Type="nvarchar(max)" />
+    <Property Name="BCP" Type="nvarchar(max)" />
+    <Property Name="StandardDeduction" Type="nvarchar(max)" />
+    <Property Name="NetProfit" Type="nvarchar(max)" />
+    <Property Name="CommPercent" Type="nvarchar(max)" />
+    <Property Name="CommAmount" Type="nvarchar(max)" />
+    <Property Name="PayrollStatus" Type="nvarchar(max)" />
+    <Property Name="spetype" Type="nvarchar(max)" />
+    <Property Name="spepaytype" Type="nvarchar(max)" />
+    <Property Name="payroll_insertedon" Type="nvarchar(max)" />
+    <Property Name="recruitement_comission" Type="nvarchar(max)" />
+    <Property Name="FBC" Type="nvarchar(max)" />
+    <Property Name="pay" Type="nvarchar(max)" />
+    <Property Name="tids_count" Type="int" />
+    <Property Name="firstweek" Type="nvarchar(max)" />
+    <Property Name="firstweek_regular" Type="nvarchar(max)" />
+    <Property Name="first_ot" Type="nvarchar(max)" />
+    <Property Name="first_holiday" Type="nvarchar(max)" />
+    <Property Name="secondweek" Type="nvarchar(max)" />
+    <Property Name="secondweek_regular" Type="nvarchar(max)" />
+    <Property Name="second_ot" Type="nvarchar(max)" />
+    <Property Name="second_holiday" Type="nvarchar(max)" />
+    <Property Name="first_tid" Type="int" />
+    <Property Name="second_tid" Type="int" />
+    <Property Name="thirdweek" Type="nvarchar(max)" />
+    <Property Name="thirdweek_regular" Type="nvarchar(max)" />
+    <Property Name="third_ot" Type="nvarchar(max)" />
+    <Property Name="third_holiday" Type="nvarchar(max)" />
+    <Property Name="fourthweek" Type="nvarchar(max)" />
+    <Property Name="fourthweek_regular" Type="nvarchar(max)" />
+    <Property Name="fourt_ot" Type="nvarchar(max)" />
+    <Property Name="fourt_holiday" Type="nvarchar(max)" />
+    <Property Name="fifthtweek" Type="nvarchar(max)" />
+    <Property Name="fifthweek_regular" Type="nvarchar(max)" />
+    <Property Name="fifth_ot" Type="nvarchar(max)" />
+    <Property Name="fifth_holiday" Type="nvarchar(max)" />
+    <Property Name="third_tid" Type="int" />
+    <Property Name="fourth_tid" Type="int" />
+    <Property Name="fifth_tid" Type="int" />
+    <Property Name="bdmname" Type="nvarchar(max)" />
+    <Property Name="FirstWeekEmpPay" Type="nvarchar(max)" />
+    <Property Name="SecondWeekEmpPay" Type="nvarchar(max)" />
+    <Property Name="ThirdWeekEmpPay" Type="nvarchar(max)" />
+    <Property Name="FourthWeekPay" Type="nvarchar(max)" />
+    <Property Name="FifthWeekEmpPay" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ProcessPayroll">
+    <Key>
+      <PropertyRef Name="payrollid" />
+    </Key>
+    <Property Name="payrollid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="speid" Type="int" />
+    <Property Name="ConsultantName" Type="nvarchar(max)" />
+    <Property Name="Duration" Type="nvarchar(max)" />
+    <Property Name="RegHours" Type="nvarchar(max)" />
+    <Property Name="OtHours" Type="nvarchar(max)" />
+    <Property Name="HoliHours" Type="nvarchar(max)" />
+    <Property Name="GrossRevenue" Type="nvarchar(max)" />
+    <Property Name="BillRate" Type="nvarchar(max)" />
+    <Property Name="PayRate" Type="nvarchar(max)" />
+    <Property Name="EmpPay" Type="nvarchar(max)" />
+    <Property Name="EmpPayroll" Type="nvarchar(max)" />
+    <Property Name="BCP" Type="nvarchar(max)" />
+    <Property Name="StandardDeduction" Type="nvarchar(max)" />
+    <Property Name="NetProfit" Type="nvarchar(max)" />
+    <Property Name="CommPercent" Type="nvarchar(max)" />
+    <Property Name="CommAmount" Type="nvarchar(max)" />
+    <Property Name="PayrollStatus" Type="nvarchar(max)" />
+    <Property Name="spetype" Type="nvarchar(max)" />
+    <Property Name="spepaytype" Type="nvarchar(max)" />
+    <Property Name="payroll_insertedon" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ProjectID" />
+    </Key>
+    <Property Name="ProjectID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectName" Type="nvarchar(max)" />
+    <Property Name="ClientID" Type="int" />
+  </EntityType>
+  <EntityType Name="PurchaseOrders">
+    <Key>
+      <PropertyRef Name="po_id" />
+    </Key>
+    <Property Name="po_id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="po_generated_on" Type="datetime" />
+    <Property Name="purchase_amount" Type="decimal" />
+    <Property Name="valid_upto" Type="datetime" />
+    <Property Name="po_raised_by" Type="nvarchar(max)" />
+    <Property Name="po_issued_to" Type="nvarchar(max)" />
+    <Property Name="po_issued_to_supplier_id" Type="bigint" />
+    <Property Name="po_raised_for" Type="nvarchar(max)" />
+    <Property Name="po_raised-for_id" Type="nvarchar(max)" />
+    <Property Name="isapproved" Type="bit" />
+    <Property Name="netterms" Type="nvarchar(max)" />
+    <Property Name="joiningdate" Type="datetime" />
+    <Property Name="billrate" Type="decimal" />
+    <Property Name="duration" Type="nvarchar(max)" />
+    <Property Name="joblocation" Type="nvarchar(max)" />
+    <Property Name="employee_type" Type="nvarchar(max)" />
+    <Property Name="HRmail" Type="nvarchar(max)" />
+    <Property Name="SalesDirectormail" Type="nvarchar(max)" />
+    <Property Name="po_raised_for_client" Type="nvarchar(max)" />
+    <Property Name="po_raised_for_client_id" Type="int" />
+    <Property Name="pob_id" Type="bigint" />
+    <Property Name="isinitial" Type="bit" />
+  </EntityType>
+  <EntityType Name="PurchaseRequests">
+    <Key>
+      <PropertyRef Name="pr_id" />
+    </Key>
+    <Property Name="pr_id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="purchase_request_generated_on" Type="datetime" />
+    <Property Name="requested_amount" Type="decimal" />
+    <Property Name="pr_raised_by" Type="nvarchar(max)" />
+    <Property Name="pr_received_by_supplier" Type="nvarchar(max)" />
+    <Property Name="pr_received_by_supplier_id" Type="bigint" />
+    <Property Name="pr_raised_for" Type="nvarchar(max)" />
+    <Property Name="pr_raised_for_id" Type="nvarchar(max)" />
+    <Property Name="isapproved" Type="bit" />
+    <Property Name="netterms" Type="nvarchar(max)" />
+    <Property Name="joiningdate" Type="datetime" />
+    <Property Name="billrate" Type="decimal" />
+    <Property Name="duration" Type="nvarchar(max)" />
+    <Property Name="joblocation" Type="nvarchar(max)" />
+    <Property Name="employee_type" Type="nvarchar(max)" />
+    <Property Name="HRmail" Type="nvarchar(max)" />
+    <Property Name="SalesDirectormail" Type="nvarchar(max)" />
+    <Property Name="pr_raised_for_client" Type="nvarchar(max)" />
+    <Property Name="pr_raised_for_client_id" Type="int" />
+  </EntityType>
+  <EntityType Name="questionnaire">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="skillname" Type="nvarchar" MaxLength="50" />
+    <Property Name="question" Type="nvarchar(max)" />
+    <Property Name="answer" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Receipts_Info">
+    <Key>
+      <PropertyRef Name="receipt_id" />
+    </Key>
+    <Property Name="receipt_id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="receipt_number" Type="nvarchar(max)" />
+    <Property Name="receipt_of_po" Type="bigint" />
+    <Property Name="received_on" Type="datetime" />
+    <Property Name="received_from_supplier_id" Type="bigint" />
+    <Property Name="received_to" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="RecentItems">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Employee" Type="nvarchar(max)" />
+    <Property Name="Page" Type="nvarchar(max)" />
+    <Property Name="URL" Type="nvarchar(max)" />
+    <Property Name="Text" Type="nvarchar(max)" />
+    <Property Name="Client" Type="nvarchar(max)" />
+    <Property Name="RI1" Type="bit" />
+    <Property Name="RI2" Type="bit" />
+    <Property Name="RI3" Type="bit" />
+    <Property Name="Position" Type="nvarchar(max)" />
+    <Property Name="CandidateName" Type="nvarchar(max)" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="resumeid" Type="int" />
+    <Property Name="resumename" Type="nvarchar(max)" />
+    <Property Name="recent1" Type="nvarchar(max)" />
+    <Property Name="recent2" Type="nvarchar(max)" />
+    <Property Name="recent3" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="RecentReqItems">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Employee" Type="nvarchar(max)" />
+    <Property Name="Page" Type="nvarchar(max)" />
+    <Property Name="URL" Type="nvarchar(max)" />
+    <Property Name="Text" Type="nvarchar(max)" />
+    <Property Name="Client" Type="nvarchar(max)" />
+    <Property Name="RI1" Type="bit" />
+    <Property Name="RI2" Type="bit" />
+    <Property Name="RI3" Type="bit" />
+    <Property Name="billrate" Type="nvarchar(max)" />
+    <Property Name="requirement" Type="nvarchar(max)" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="recent1" Type="nvarchar(max)" />
+    <Property Name="recent2" Type="nvarchar(max)" />
+    <Property Name="recent3" Type="nvarchar(max)" />
+    <Property Name="Position" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ReportDashBoard">
+    <Key>
+      <PropertyRef Name="ReportId" />
+    </Key>
+    <Property Name="ReportId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ReportName" Type="nvarchar(max)" />
+    <Property Name="ReportCreatedOn" Type="datetime" />
+    <Property Name="ReportCreatedBy" Type="nvarchar(max)" />
+    <Property Name="Folder" Type="nvarchar(max)" />
+    <Property Name="mis1" Type="nvarchar(max)" />
+    <Property Name="mis2" Type="nvarchar(max)" />
+    <Property Name="startdate" Type="datetime" />
+    <Property Name="enddate" Type="datetime" />
+    <Property Name="action" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="resumeextracts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="Phone" Type="nvarchar(max)" />
+    <Property Name="Mobile" Type="nvarchar(max)" />
+    <Property Name="ZipCode" Type="nvarchar(max)" />
+    <Property Name="StateCode" Type="nvarchar(max)" />
+    <Property Name="StateName" Type="nvarchar(max)" />
+    <Property Name="City" Type="nvarchar(max)" />
+    <Property Name="Street" Type="nvarchar(max)" />
+    <Property Name="CurrentAddress" Type="nvarchar(max)" />
+    <Property Name="PermanentAddress" Type="nvarchar(max)" />
+    <Property Name="DOB" Type="nvarchar(max)" />
+    <Property Name="URL" Type="nvarchar(max)" />
+    <Property Name="LINKEDIN" Type="nvarchar(max)" />
+    <Property Name="TWITTER" Type="nvarchar(max)" />
+    <Property Name="SKYPEID" Type="nvarchar(max)" />
+    <Property Name="TotalExp" Type="nvarchar(max)" />
+    <Property Name="RelevantExp" Type="nvarchar(max)" />
+    <Property Name="Skills" Type="nvarchar(max)" />
+    <Property Name="Companies" Type="nvarchar(max)" />
+    <Property Name="CompanyLocations" Type="nvarchar(max)" />
+    <Property Name="AreasOfExpertize" Type="nvarchar(max)" />
+    <Property Name="Certifications" Type="nvarchar(max)" />
+    <Property Name="VisaStatus" Type="nvarchar(max)" />
+    <Property Name="EducationDetails" Type="nvarchar(max)" />
+    <Property Name="Roles" Type="nvarchar(max)" />
+    <Property Name="resumeid" Type="bigint" />
+    <Property Name="resumename" Type="nvarchar(max)" />
+    <Property Name="SSN" Type="nvarchar(max)" />
+    <Property Name="Rank" Type="int" />
+    <Property Name="LineNumber" Type="int" />
+  </EntityType>
+  <EntityType Name="resumeInfo">
+    <Key>
+      <PropertyRef Name="resumeid" />
+    </Key>
+    <Property Name="resumeid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+    <Property Name="resumename" Type="nvarchar(max)" />
+    <Property Name="recruiteremail" Type="nvarchar(max)" />
+    <Property Name="techadminemail" Type="nvarchar(max)" />
+    <Property Name="recruiterfeedback" Type="nvarchar(max)" />
+    <Property Name="techadminfeedback" Type="nvarchar(max)" />
+    <Property Name="resumeinfo" Type="nvarchar(max)" />
+    <Property Name="submittedon" Type="nvarchar(max)" />
+    <Property Name="candidateFullLegalName" Type="nvarchar(max)" />
+    <Property Name="candidatecurrentlocation" Type="nvarchar(max)" />
+    <Property Name="candidatemobilenumber" Type="nvarchar(max)" />
+    <Property Name="candidateemail" Type="nvarchar(max)" />
+    <Property Name="skypeID" Type="nvarchar(max)" />
+    <Property Name="availableInterviewTimeslots" Type="nvarchar(max)" />
+    <Property Name="noticePeriod" Type="nvarchar(max)" />
+    <Property Name="highestDegree" Type="nvarchar(max)" />
+    <Property Name="yearOfGraduation" Type="nvarchar(max)" />
+    <Property Name="university" Type="nvarchar(max)" />
+    <Property Name="willingToRelocate" Type="nvarchar(max)" />
+    <Property Name="workAuthorizationAndValidity" Type="nvarchar(max)" />
+    <Property Name="totalYearsOfExperience" Type="nvarchar(max)" />
+    <Property Name="totalYearsRelevantExperience" Type="nvarchar(max)" />
+    <Property Name="candidatepayrate" Type="nvarchar(max)" />
+    <Property Name="currentstatus" Type="nvarchar(max)" />
+    <Property Name="previousstatus" Type="nvarchar(max)" />
+    <Property Name="skillsfoundincv" Type="nvarchar(max)" />
+    <Property Name="skillsummary" Type="nvarchar(max)" />
+    <Property Name="is_a_Point" Type="nvarchar" MaxLength="50" />
+    <Property Name="rtrname" Type="nvarchar(max)" />
+    <Property Name="c2cname" Type="nvarchar(max)" />
+    <Property Name="rcename" Type="nvarchar(max)" />
+    <Property Name="firstname" Type="nvarchar(max)" />
+    <Property Name="lastname" Type="nvarchar(max)" />
+    <Property Name="middlename" Type="nvarchar(max)" />
+    <Property Name="msaname" Type="nvarchar(max)" />
+    <Property Name="poname" Type="nvarchar(max)" />
+    <Property Name="submissionrate" Type="nvarchar(max)" />
+    <Property Name="prname" Type="nvarchar(max)" />
+    <Property Name="oldresume" Type="nvarchar(max)" />
+    <Property Name="cjoiningdate" Type="nvarchar(max)" />
+    <Property Name="ish1bcandidate" Type="bit" />
+  </EntityType>
+  <EntityType Name="Sapta_Bdm">
+    <Key>
+      <PropertyRef Name="bid" />
+    </Key>
+    <Property Name="bid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="bdmname" Type="nvarchar(max)" />
+    <Property Name="bdmemail" Type="nvarchar(max)" />
+    <Property Name="bdminsertedon" Type="nvarchar(max)" />
+    <Property Name="bdmid" Type="int" />
+    <Property Name="bdmclientid" Type="int" />
+    <Property Name="bdmcommision" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Bdm_Master">
+    <Key>
+      <PropertyRef Name="bdmid" />
+    </Key>
+    <Property Name="bdmid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="bdmname" Type="nvarchar(max)" />
+    <Property Name="bdmemail" Type="nvarchar(max)" />
+    <Property Name="bdmphone" Type="nvarchar(max)" />
+    <Property Name="bdminsertedon" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_BiWeekly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="nvarchar(max)" />
+    <Property Name="enddate" Type="nvarchar(max)" />
+    <Property Name="paydate" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_BiWeekly_Original">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="nvarchar(max)" />
+    <Property Name="enddate" Type="nvarchar(max)" />
+    <Property Name="paydate" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_ClientManager">
+    <Key>
+      <PropertyRef Name="ctmgrid" />
+    </Key>
+    <Property Name="ctmgrid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ctmgridvar" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ctmgrname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ctmgrtitle" Type="nvarchar(max)" />
+    <Property Name="ctmgraddress" Type="nvarchar(max)" />
+    <Property Name="ctmgremail" Type="nvarchar(max)" />
+    <Property Name="ctmgrphone" Type="nvarchar(max)" />
+    <Property Name="ctmgrcity" Type="nvarchar(max)" />
+    <Property Name="ctmgrstate" Type="nvarchar(max)" />
+    <Property Name="ctmgrzip" Type="nvarchar(max)" />
+    <Property Name="clientid" Type="int" Nullable="false" />
+    <Property Name="ctmgrdept" Type="nvarchar(max)" />
+    <Property Name="ctmgrinsertedon" Type="nvarchar(max)" />
+    <Property Name="ctmgrpointofcontactatsapta" Type="nvarchar(max)" />
+    <Property Name="saptaid" Type="int" Nullable="false" />
+    <Property Name="ctmgrfirstname" Type="nvarchar(max)" />
+    <Property Name="ctmgrmiddlename" Type="nvarchar(max)" />
+    <Property Name="ctmgrlastname" Type="nvarchar(max)" />
+    <Property Name="status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_ClientMaster">
+    <Key>
+      <PropertyRef Name="clientid" />
+    </Key>
+    <Property Name="clientid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="clientidvar" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="clientname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="clientaddress" Type="nvarchar(max)" />
+    <Property Name="clientphone" Type="nvarchar(max)" />
+    <Property Name="clientemail" Type="nvarchar(max)" />
+    <Property Name="clientcity" Type="nvarchar(max)" />
+    <Property Name="clientstate" Type="nvarchar(max)" />
+    <Property Name="clientcountry" Type="nvarchar(max)" />
+    <Property Name="clientzip" Type="nvarchar(max)" />
+    <Property Name="clienttimezone" Type="nvarchar(max)" />
+    <Property Name="clientpaytype" Type="nvarchar(max)" />
+    <Property Name="clientinsertedon" Type="nvarchar(max)" />
+    <Property Name="clientpointofcontact" Type="nvarchar(max)" />
+    <Property Name="status" Type="nvarchar(max)" />
+    <Property Name="otlockstatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="holidaylockstatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="website" Type="nvarchar(max)" />
+    <Property Name="ownername" Type="nvarchar(max)" />
+    <Property Name="shippingaddress" Type="nvarchar(max)" />
+    <Property Name="billingaddress" Type="nvarchar(max)" />
+    <Property Name="contactemail" Type="nvarchar(max)" />
+    <Property Name="contactphone" Type="nvarchar(max)" />
+    <Property Name="mailingaddress" Type="nvarchar(max)" />
+    <Property Name="contactowner" Type="nvarchar(max)" />
+    <Property Name="contacttitle" Type="nvarchar(max)" />
+    <Property Name="type" Type="nvarchar(max)" />
+    <Property Name="scopeofproject" Type="nvarchar(max)" />
+    <Property Name="clientlocation" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_ClientRecruiter">
+    <Key>
+      <PropertyRef Name="ctrecid" />
+    </Key>
+    <Property Name="ctrecid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ctrecidvar" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ctrecname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ctrectitle" Type="nvarchar(max)" />
+    <Property Name="ctrecaddress" Type="nvarchar(max)" />
+    <Property Name="ctrecemail" Type="nvarchar(max)" />
+    <Property Name="ctrecphone" Type="nvarchar(max)" />
+    <Property Name="ctreccity" Type="nvarchar(max)" />
+    <Property Name="ctrecstate" Type="nvarchar(max)" />
+    <Property Name="ctreczip" Type="nvarchar(max)" />
+    <Property Name="clientid" Type="int" Nullable="false" />
+    <Property Name="ctrecdept" Type="nvarchar(max)" />
+    <Property Name="ctrecinsertedon" Type="nvarchar(max)" />
+    <Property Name="ctrecpointofcontactatsapta" Type="nvarchar(max)" />
+    <Property Name="saptaid" Type="int" Nullable="false" />
+    <Property Name="ctrecfirstname" Type="nvarchar(max)" />
+    <Property Name="ctrecmiddlename" Type="nvarchar(max)" />
+    <Property Name="ctreclastname" Type="nvarchar(max)" />
+    <Property Name="status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Employees">
+    <Key>
+      <PropertyRef Name="speid" />
+    </Key>
+    <Property Name="speid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="speidvar" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="speSSN" Type="nvarchar(max)" />
+    <Property Name="spename" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="speemail" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="speaddress" Type="nvarchar(max)" />
+    <Property Name="spephone" Type="nvarchar(max)" />
+    <Property Name="specity" Type="nvarchar(max)" />
+    <Property Name="spestate" Type="nvarchar(max)" />
+    <Property Name="specurrentcountry" Type="nvarchar(max)" />
+    <Property Name="speoriginalcountry" Type="nvarchar(max)" />
+    <Property Name="spevisastatus" Type="nvarchar(max)" />
+    <Property Name="spezip" Type="nvarchar(max)" />
+    <Property Name="spebillrate" Type="nvarchar(max)" />
+    <Property Name="spepayrate" Type="nvarchar(max)" />
+    <Property Name="spepaytype" Type="nvarchar(max)" />
+    <Property Name="spetype" Type="nvarchar(max)" />
+    <Property Name="clientid" Type="int" Nullable="false" />
+    <Property Name="ctmgrid" Type="int" Nullable="false" />
+    <Property Name="speinsertedon" Type="nvarchar(max)" />
+    <Property Name="spepointofcontactatsapta" Type="nvarchar(max)" />
+    <Property Name="saptaid" Type="int" Nullable="false" />
+    <Property Name="spefirstname" Type="nvarchar(max)" />
+    <Property Name="spemiddlename" Type="nvarchar(max)" />
+    <Property Name="spelastname" Type="nvarchar(max)" />
+    <Property Name="speDOB" Type="nvarchar(max)" />
+    <Property Name="spealternate_email" Type="nvarchar(max)" />
+    <Property Name="spealternate_mobile" Type="nvarchar(max)" />
+    <Property Name="spe_emergency_number" Type="nvarchar(max)" />
+    <Property Name="spe_father_name" Type="nvarchar(max)" />
+    <Property Name="spe_mother_name" Type="nvarchar(max)" />
+    <Property Name="spe_marital_status" Type="nvarchar(max)" />
+    <Property Name="spe_permanent_address" Type="nvarchar(max)" />
+    <Property Name="spe_gender" Type="nvarchar(max)" />
+    <Property Name="spe_misc_one" Type="nvarchar(max)" />
+    <Property Name="spe_misc_two" Type="nvarchar(max)" />
+    <Property Name="bdmid" Type="int" />
+    <Property Name="hrid" Type="int" />
+    <Property Name="spejoiningdate" Type="nvarchar(max)" />
+    <Property Name="speacceptancedate" Type="nvarchar(max)" />
+    <Property Name="spe_resumename" Type="nvarchar(max)" />
+    <Property Name="spe_rtr" Type="nvarchar(max)" />
+    <Property Name="spe_rateconfirmation" Type="nvarchar(max)" />
+    <Property Name="statecode" Type="nvarchar" MaxLength="2" />
+    <Property Name="noof_allowed_leaves" Type="nvarchar" MaxLength="50" />
+    <Property Name="overwrite_ot_hours" Type="nvarchar" MaxLength="50" />
+    <Property Name="overwrite_holidayhours" Type="nvarchar" MaxLength="50" />
+    <Property Name="spe_MSA" Type="nvarchar(max)" />
+    <Property Name="spe_PO" Type="nvarchar(max)" />
+    <Property Name="projectID" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Sapta_Hr">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="hrname" Type="nvarchar(max)" />
+    <Property Name="hremail" Type="nvarchar(max)" />
+    <Property Name="hrinsertedon" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Invoice">
+    <Key>
+      <PropertyRef Name="invoiceid" />
+    </Key>
+    <Property Name="invoiceid" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="vendorinvoicenumber" Type="nvarchar(max)" />
+    <Property Name="dueamount" Type="nvarchar(max)" />
+    <Property Name="paidamount" Type="nvarchar(max)" />
+    <Property Name="status" Type="nvarchar(max)" />
+    <Property Name="createdon" Type="nvarchar(max)" />
+    <Property Name="modifiedon" Type="nvarchar(max)" />
+    <Property Name="userid" Type="bigint" />
+    <Property Name="misone" Type="nvarchar(max)" />
+    <Property Name="mistwo" Type="nvarchar(max)" />
+    <Property Name="documentname" Type="nvarchar(max)" />
+    <Property Name="notes" Type="nvarchar(max)" />
+    <Property Name="adminnotes" Type="nvarchar(max)" />
+    <Property Name="paydate" Type="nvarchar(max)" />
+    <Property Name="paidtype" Type="nvarchar(max)" />
+    <Property Name="chequenumber" Type="nvarchar(max)" />
+    <Property Name="po_id" Type="bigint" />
+    <Property Name="totaldueamount" Type="nvarchar(max)" />
+    <Property Name="pob_id" Type="bigint" />
+    <Property Name="suppliername" Type="nvarchar(max)" />
+    <Property Name="contractorid" Type="int" />
+    <Property Name="contractorname" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Invoice_ToClients">
+    <Key>
+      <PropertyRef Name="invoiceid" />
+    </Key>
+    <Property Name="invoiceid" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="vendorinvoicenumber" Type="nvarchar(max)" />
+    <Property Name="dueamount" Type="nvarchar(max)" />
+    <Property Name="paidamount" Type="nvarchar(max)" />
+    <Property Name="status" Type="nvarchar(max)" />
+    <Property Name="createdon" Type="nvarchar(max)" />
+    <Property Name="modifiedon" Type="nvarchar(max)" />
+    <Property Name="userid" Type="bigint" />
+    <Property Name="misone" Type="nvarchar(max)" />
+    <Property Name="mistwo" Type="nvarchar(max)" />
+    <Property Name="documentname" Type="nvarchar(max)" />
+    <Property Name="notes" Type="nvarchar(max)" />
+    <Property Name="adminnotes" Type="nvarchar(max)" />
+    <Property Name="paydate" Type="nvarchar(max)" />
+    <Property Name="paidtype" Type="nvarchar(max)" />
+    <Property Name="chequenumber" Type="nvarchar(max)" />
+    <Property Name="po_id" Type="bigint" />
+    <Property Name="totaldueamount" Type="nvarchar(max)" />
+    <Property Name="pob_id" Type="bigint" />
+    <Property Name="supplierid" Type="bigint" />
+    <Property Name="suppliername" Type="nvarchar(max)" />
+    <Property Name="startofweek" Type="nvarchar(max)" />
+    <Property Name="endofweek" Type="nvarchar(max)" />
+    <Property Name="clientid" Type="int" />
+    <Property Name="clientname" Type="nvarchar(max)" />
+    <Property Name="contractorid" Type="int" />
+    <Property Name="contractorname" Type="nvarchar(max)" />
+    <Property Name="billrate" Type="nvarchar(max)" />
+    <Property Name="payrate" Type="nvarchar(max)" />
+    <Property Name="reqid" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Monthly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="nvarchar(max)" />
+    <Property Name="enddate" Type="nvarchar(max)" />
+    <Property Name="paydate" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Monthly_Original">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="nvarchar(max)" />
+    <Property Name="enddate" Type="nvarchar(max)" />
+    <Property Name="paydate" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_NationalHolidays">
+    <Key>
+      <PropertyRef Name="nhid" />
+    </Key>
+    <Property Name="nhid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nationalholiday" Type="nvarchar(max)" />
+    <Property Name="nhyear" Type="int" />
+    <Property Name="nholidayname" Type="nvarchar(max)" />
+    <Property Name="states_giving_holiday" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_SemiMonthly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="nvarchar(max)" />
+    <Property Name="enddate" Type="nvarchar(max)" />
+    <Property Name="paydate" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Timesheet">
+    <Key>
+      <PropertyRef Name="tid" />
+    </Key>
+    <Property Name="tid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="speid" Type="int" Nullable="false" />
+    <Property Name="startofweek" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="endofweek" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_monday" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_tuesday" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_wednusday" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_thursday" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_friday" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_saturday" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_sunday" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_regular_hours" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_OT_hours" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_holiday_hours" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_total_hours" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ts_insertedon" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="status" Type="nvarchar(max)" />
+    <Property Name="ts_submittedon" Type="nvarchar(max)" />
+    <Property Name="ts_acceptedrejectedon" Type="nvarchar(max)" />
+    <Property Name="leaves_taken" Type="nvarchar" MaxLength="50" />
+    <Property Name="noofworkingdays" Type="nvarchar" MaxLength="50" />
+    <Property Name="remarks" Type="nvarchar(max)" />
+    <Property Name="adminremarks" Type="nvarchar(max)" />
+    <Property Name="cmremarks" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Users">
+    <Key>
+      <PropertyRef Name="saptaid" />
+    </Key>
+    <Property Name="saptaid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="password" Type="nvarchar(max)" />
+    <Property Name="saptausertype" Type="nvarchar(max)" />
+    <Property Name="recordinsertedon" Type="nvarchar(max)" />
+    <Property Name="saptauser" Type="nvarchar(max)" />
+    <Property Name="emailid" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Sapta_Weekly">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="startdate" Type="nvarchar(max)" />
+    <Property Name="enddate" Type="nvarchar(max)" />
+    <Property Name="paydate" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="supplier_id" />
+    </Key>
+    <Property Name="supplier_id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="supplier_name" Type="nvarchar(max)" />
+    <Property Name="supplier_email" Type="nvarchar(max)" />
+    <Property Name="supplier_phone" Type="nvarchar(max)" />
+    <Property Name="supplier_address" Type="nvarchar(max)" />
+    <Property Name="supplier_contact_person" Type="nvarchar(max)" />
+    <Property Name="supplier_contact_person_email" Type="nvarchar(max)" />
+    <Property Name="supplier_contact_person_phone" Type="nvarchar(max)" />
+    <Property Name="supplier_contact_person_id" Type="nvarchar(max)" />
+    <Property Name="supplier_zip" Type="nvarchar(max)" />
+    <Property Name="supplier_fein" Type="nvarchar" MaxLength="50" />
+    <Property Name="supplier_dba" Type="nvarchar" MaxLength="50" />
+    <Property Name="supplier_state" Type="nvarchar(max)" />
+    <Property Name="password" Type="varchar(max)" />
+    <Property Name="supplier_UserId" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="t">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="email" Type="nvarchar(max)" />
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ish1bcandidate" Type="bit" />
+  </EntityType>
+  <EntityType Name="tempPayroll">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ConsultantName" Type="nvarchar(max)" />
+    <Property Name="Duration" Type="nvarchar(max)" />
+    <Property Name="RegHours" Type="nvarchar(max)" />
+    <Property Name="OtHours" Type="nvarchar(max)" />
+    <Property Name="HoliHours" Type="nvarchar(max)" />
+    <Property Name="GrossRevenue" Type="nvarchar(max)" />
+    <Property Name="BillRate" Type="nvarchar(max)" />
+    <Property Name="PayRate" Type="nvarchar(max)" />
+    <Property Name="EmpPay" Type="nvarchar(max)" />
+    <Property Name="EmpPayroll" Type="nvarchar(max)" />
+    <Property Name="BCP" Type="nvarchar(max)" />
+    <Property Name="NetProfit" Type="nvarchar(max)" />
+    <Property Name="CommPercent" Type="nvarchar(max)" />
+    <Property Name="CommAmount" Type="nvarchar(max)" />
+    <Property Name="StandardDeduction" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="uid" />
+    </Key>
+    <Property Name="uid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="firstname" Type="nvarchar" MaxLength="50" />
+    <Property Name="lastname" Type="nvarchar" MaxLength="50" />
+    <Property Name="middlename" Type="nvarchar" MaxLength="50" />
+    <Property Name="fullname" Type="nvarchar" MaxLength="50" />
+    <Property Name="emailid" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="gender" Type="nvarchar" MaxLength="50" />
+    <Property Name="dob" Type="date" />
+    <Property Name="phone" Type="nvarchar(max)" />
+    <Property Name="mobile" Type="int" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="state" Type="nvarchar" MaxLength="50" />
+    <Property Name="country" Type="nvarchar" MaxLength="50" />
+    <Property Name="role" Type="nvarchar" MaxLength="50" />
+    <Property Name="sendemail" Type="bit" />
+  </EntityType>
+  <EntityType Name="vendorrequirements">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="reqid" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="vendoremail" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="vendorname" Type="nvarchar" MaxLength="50" />
+    <Property Name="comments" Type="nvarchar" MaxLength="50" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="vendors">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="vendorname" Type="nvarchar" MaxLength="100" />
+    <Property Name="vendoremail" Type="nvarchar" MaxLength="100" />
+    <Property Name="phone" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="vendors_old">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="vendorname" Type="nvarchar" MaxLength="100" />
+    <Property Name="vendoremail" Type="nvarchar" MaxLength="100" />
+    <Property Name="phone" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="vendorsALL">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="vendorname" Type="nvarchar" MaxLength="100" />
+    <Property Name="vendoremail" Type="nvarchar" MaxLength="100" />
+    <Property Name="phone" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_Expenses_ExpenseCategories">
+    <End Role="ExpenseCategories" Type="SaptaerecruitModel.Store.ExpenseCategories" Multiplicity="0..1" />
+    <End Role="Expenses" Type="SaptaerecruitModel.Store.Expenses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseCategories">
+        <PropertyRef Name="ExpenseCategoryId" />
+      </Principal>
+      <Dependent Role="Expenses">
+        <PropertyRef Name="ExpenseType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Expenses_Sapta_Users">
+    <End Role="Sapta_Users" Type="SaptaerecruitModel.Store.Sapta_Users" Multiplicity="0..1" />
+    <End Role="Expenses" Type="SaptaerecruitModel.Store.Expenses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Users">
+        <PropertyRef Name="saptaid" />
+      </Principal>
+      <Dependent Role="Expenses">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JobSeekerEducationDetails_JobSeekerInfo">
+    <End Role="JobSeekerInfo" Type="SaptaerecruitModel.Store.JobSeekerInfo" Multiplicity="1" />
+    <End Role="JobSeekerEducationDetails" Type="SaptaerecruitModel.Store.JobSeekerEducationDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeekerInfo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="JobSeekerEducationDetails">
+        <PropertyRef Name="jid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_JobSeekerEmploymentDetails_JobSeekerInfo">
+    <End Role="JobSeekerInfo" Type="SaptaerecruitModel.Store.JobSeekerInfo" Multiplicity="1" />
+    <End Role="JobSeekerEmploymentDetails" Type="SaptaerecruitModel.Store.JobSeekerEmploymentDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeekerInfo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="JobSeekerEmploymentDetails">
+        <PropertyRef Name="jobseekerid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_jobseekerHome_JobSeekerInfo">
+    <End Role="JobSeekerInfo" Type="SaptaerecruitModel.Store.JobSeekerInfo" Multiplicity="1" />
+    <End Role="jobseekerHome" Type="SaptaerecruitModel.Store.jobseekerHome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JobSeekerInfo">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="jobseekerHome">
+        <PropertyRef Name="jobseekerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Project_Project">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Store.Sapta_ClientMaster" Multiplicity="0..1" />
+    <End Role="Project" Type="SaptaerecruitModel.Store.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseOrders_Suppliers">
+    <End Role="Suppliers" Type="SaptaerecruitModel.Store.Suppliers" Multiplicity="0..1" />
+    <End Role="PurchaseOrders" Type="SaptaerecruitModel.Store.PurchaseOrders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="supplier_id" />
+      </Principal>
+      <Dependent Role="PurchaseOrders">
+        <PropertyRef Name="po_issued_to_supplier_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseRequests_Suppliers">
+    <End Role="Suppliers" Type="SaptaerecruitModel.Store.Suppliers" Multiplicity="0..1" />
+    <End Role="PurchaseRequests" Type="SaptaerecruitModel.Store.PurchaseRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="supplier_id" />
+      </Principal>
+      <Dependent Role="PurchaseRequests">
+        <PropertyRef Name="pr_received_by_supplier_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Receipts_Info_Suppliers">
+    <End Role="PurchaseOrders" Type="SaptaerecruitModel.Store.PurchaseOrders" Multiplicity="0..1" />
+    <End Role="Receipts_Info" Type="SaptaerecruitModel.Store.Receipts_Info" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchaseOrders">
+        <PropertyRef Name="po_id" />
+      </Principal>
+      <Dependent Role="Receipts_Info">
+        <PropertyRef Name="receipt_of_po" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Bdm_Sapta_Bdm_Master">
+    <End Role="Sapta_Bdm_Master" Type="SaptaerecruitModel.Store.Sapta_Bdm_Master" Multiplicity="0..1" />
+    <End Role="Sapta_Bdm" Type="SaptaerecruitModel.Store.Sapta_Bdm" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Bdm_Master">
+        <PropertyRef Name="bdmid" />
+      </Principal>
+      <Dependent Role="Sapta_Bdm">
+        <PropertyRef Name="bdmid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Bdm_Sapta_ClientMaster">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Store.Sapta_ClientMaster" Multiplicity="0..1" />
+    <End Role="Sapta_Bdm" Type="SaptaerecruitModel.Store.Sapta_Bdm" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Sapta_Bdm">
+        <PropertyRef Name="bdmclientid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_ClientManager_Sapta_ClientMaster">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Store.Sapta_ClientMaster" Multiplicity="1" />
+    <End Role="Sapta_ClientManager" Type="SaptaerecruitModel.Store.Sapta_ClientManager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Sapta_ClientManager">
+        <PropertyRef Name="clientid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_ClientManager_Sapta_Users">
+    <End Role="Sapta_Users" Type="SaptaerecruitModel.Store.Sapta_Users" Multiplicity="1" />
+    <End Role="Sapta_ClientManager" Type="SaptaerecruitModel.Store.Sapta_ClientManager" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Users">
+        <PropertyRef Name="saptaid" />
+      </Principal>
+      <Dependent Role="Sapta_ClientManager">
+        <PropertyRef Name="saptaid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_ClientRecruiter_Sapta_ClientMaster">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Store.Sapta_ClientMaster" Multiplicity="1" />
+    <End Role="Sapta_ClientRecruiter" Type="SaptaerecruitModel.Store.Sapta_ClientRecruiter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Sapta_ClientRecruiter">
+        <PropertyRef Name="clientid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_ClientRecruiter_Sapta_Users">
+    <End Role="Sapta_Users" Type="SaptaerecruitModel.Store.Sapta_Users" Multiplicity="1" />
+    <End Role="Sapta_ClientRecruiter" Type="SaptaerecruitModel.Store.Sapta_ClientRecruiter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Users">
+        <PropertyRef Name="saptaid" />
+      </Principal>
+      <Dependent Role="Sapta_ClientRecruiter">
+        <PropertyRef Name="saptaid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_Bdm">
+    <End Role="Sapta_Bdm" Type="SaptaerecruitModel.Store.Sapta_Bdm" Multiplicity="0..1" />
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Store.Sapta_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Bdm">
+        <PropertyRef Name="bid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees">
+        <PropertyRef Name="bdmid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_ClientManager">
+    <End Role="Sapta_ClientManager" Type="SaptaerecruitModel.Store.Sapta_ClientManager" Multiplicity="1" />
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Store.Sapta_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientManager">
+        <PropertyRef Name="ctmgrid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees">
+        <PropertyRef Name="ctmgrid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_ClientMaster">
+    <End Role="Sapta_ClientMaster" Type="SaptaerecruitModel.Store.Sapta_ClientMaster" Multiplicity="1" />
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Store.Sapta_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_ClientMaster">
+        <PropertyRef Name="clientid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees">
+        <PropertyRef Name="clientid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_Employees">
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Store.Sapta_Employees" Multiplicity="1" />
+    <End Role="Sapta_Employees1" Type="SaptaerecruitModel.Store.Sapta_Employees" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Employees">
+        <PropertyRef Name="speid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees1">
+        <PropertyRef Name="speid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Employees_Sapta_Users">
+    <End Role="Sapta_Users" Type="SaptaerecruitModel.Store.Sapta_Users" Multiplicity="1" />
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Store.Sapta_Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Users">
+        <PropertyRef Name="saptaid" />
+      </Principal>
+      <Dependent Role="Sapta_Employees">
+        <PropertyRef Name="saptaid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sapta_Timesheet_Sapta_Employees">
+    <End Role="Sapta_Employees" Type="SaptaerecruitModel.Store.Sapta_Employees" Multiplicity="1" />
+    <End Role="Sapta_Timesheet" Type="SaptaerecruitModel.Store.Sapta_Timesheet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sapta_Employees">
+        <PropertyRef Name="speid" />
+      </Principal>
+      <Dependent Role="Sapta_Timesheet">
+        <PropertyRef Name="speid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="sp_allresumes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="starskills" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_allresumes2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_AllSkills2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_appendActionNotes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="resumeid" Type="int" Mode="In" />
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="noteschangedondate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="notes" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="point" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="currentstatus" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="updatedby" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="recemail" Type="nvarchar(max)" Mode="InOut" />
+  </Function>
+  <Function Name="sp_candidateDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="resumeid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_candidateDetailsByResumeIDSmall" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="resumeid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_candidateDetailsByResumeName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="resumename" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesForReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesForReportForCustomFields" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="fields" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesForReportWithoutAction" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="varchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="varchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesForReportWithoutActionAndEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesForReportWithoutEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_candidatesListByClient" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesListByMaxResumeID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="resumeid" Type="int" Mode="In" />
+    <Parameter Name="noteschangedondate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesListByResumeID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="resumeid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesListByStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesListByStatusAndClient" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="client" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_candidatesListByStatusAndClientAndTechnology" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="client" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="technology" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_chartDatewiseCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_clientsForChart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_clientsWithActionForChart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_clientsWithRecForChart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_CountReportsName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ReportCreatedBy" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_CustomLoginHistoryReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="datetime" Mode="In" />
+    <Parameter Name="enddate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_DateCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_DeleteRecentItems_Optimized" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteRecentReqItems_Optimized" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_DeleteReportByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ReportId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_DemandChart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_DvsSChart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_DvsSToClient_AdminChart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" StoreFunctionName="sp_DvsSToClient&amp;AdminChart" Schema="dbo">
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_DvsSToClientChart" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_execcandidatesListByStatusAndClient" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="client" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="exesalesmgr" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_extncandidatesList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="extnemailid" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_extncandidatesListByStatusAndClientAndTechnology" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="client" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="technology" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="extnsales" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_Getinvoices" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="userid" Type="int" Mode="In" />
+    <Parameter Name="status" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_Getinvoices2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="userid" Type="varchar(max)" Mode="In" />
+    <Parameter Name="status" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_Getinvoices2New" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="userid" Type="varchar(max)" Mode="In" />
+    <Parameter Name="status" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetRecentItems" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetRecentItems_Optimized" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetRecentreqItems" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetRecentReqItems_Optimized" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_getrecruiterstatusByMax" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetReportsToDashboard" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ReportCreatedBy" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_GetReportsToDashboardByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_getResumeIDByName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="resumename" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_gettechevaluvatecandidates" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_Insert_Invoice" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vendorinvoicenumber" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="dueamount" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="paidamount" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="status" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="createdon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="modifiedon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="userid" Type="bigint" Mode="In" />
+    <Parameter Name="documentname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="notes" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="po_id" Type="bigint" Mode="In" />
+    <Parameter Name="totaldueamount" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="pob_id" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertAccountDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clientidvar" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientaddress" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientphone" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientemail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientcity" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientstate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientcountry" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientzip" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clienttimezone" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientpaytype" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientinsertedon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientpointofcontact" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="status" Type="nvarchar" Mode="In" />
+    <Parameter Name="otlockstatus" Type="nvarchar" Mode="In" />
+    <Parameter Name="holidaylockstatus" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="website" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ownername" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="shippingaddress" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="billingaddress" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="contactemail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="contactphone" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="mailingaddress" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="contactowner" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="contacttitle" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="type" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="scopeofproject" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientlocation" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertcandidatelogDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidatename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="email" Type="nvarchar" Mode="In" />
+    <Parameter Name="mobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="status" Type="nvarchar" Mode="In" />
+    <Parameter Name="feedback" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="recruiteremail" Type="nvarchar" Mode="In" />
+    <Parameter Name="dateofinsertion" Type="nvarchar" Mode="In" />
+    <Parameter Name="requirement" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="skills" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertClientInvoices" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vendorinvoicenumber" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="dueamount" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="paidamount" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="status" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="createdon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="modifiedon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="userid" Type="bigint" Mode="In" />
+    <Parameter Name="misone" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="mistwo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="documentname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="notes" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="adminnotes" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="paydate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="paidtype" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="chequenumber" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="po_id" Type="bigint" Mode="In" />
+    <Parameter Name="totaldueamount" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="pob_id" Type="bigint" Mode="In" />
+    <Parameter Name="supplierid" Type="bigint" Mode="In" />
+    <Parameter Name="suppliername" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startofweek" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="endofweek" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientid" Type="int" Mode="In" />
+    <Parameter Name="clientname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="contractorid" Type="int" Mode="In" />
+    <Parameter Name="contractorname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="billrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="payrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_insertHireExtensions" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="resumeid" Type="int" Mode="In" />
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidatename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidateemail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="procurementmgrname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="procurementmgremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientemail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="joblocation" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="agreedpayrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="permanenthire" Type="nchar" Mode="In" />
+    <Parameter Name="howsoontohire" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="extendcontract" Type="nchar" Mode="In" />
+    <Parameter Name="howlongextension" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="joiningdate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertJobSeekerDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="firstname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="lastname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="contactaddress" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="emailid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="contactnumber" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="createdon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="owner" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="source" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="currentjobtitle" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="currentemployer" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="skillset" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="expextedsalary" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="qualification" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="additionalinfo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="currentsalary" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="resumename" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertLoginHistory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="LoginTime" Type="datetime" Mode="In" />
+    <Parameter Name="SourceIp" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Location" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="LoginType" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Status" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Browser" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Platform" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Application" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="LoginURL" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ISP" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="latlong" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertPayrollInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ConsultantName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Duration" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="RegHours" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="OtHours" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="HoliHours" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="GrossRevenue" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="BillRate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="PayRate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EmpPay" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EmpPayroll" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="BCP" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="NetProfit" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CommPercent" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CommAmount" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertRegisterUserDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="emailid" Type="nvarchar" Mode="In" />
+    <Parameter Name="mobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="location" Type="nvarchar" Mode="In" />
+    <Parameter Name="experince" Type="nvarchar" Mode="In" />
+    <Parameter Name="skills" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertReportsToDashboard" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ReportName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CreatedOn" Type="datetime" Mode="In" />
+    <Parameter Name="CreatedBy" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Folder" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Fields" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="PageName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="datetime" Mode="In" />
+    <Parameter Name="enddate" Type="datetime" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_insertsaptaemployee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="speidvar" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="speemail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="speaddress" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spephone" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="specity" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spestate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spezip" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spebillrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spepayrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spepaytype" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spetype" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientid" Type="int" Mode="In" />
+    <Parameter Name="ctmgrid" Type="int" Mode="In" />
+    <Parameter Name="speinsertedon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spataid" Type="int" Mode="In" />
+    <Parameter Name="spefirstname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spelastname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="bdmid" Type="int" Mode="In" />
+    <Parameter Name="spepointofcontactatsapta" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_misc_one" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_misc_two" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="hrid" Type="int" Mode="In" />
+    <Parameter Name="spejoiningdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="speacceptancedate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_resumename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_rtr" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_rateconfirmation" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_MSA" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_PO" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="statecode" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SP_insertsaptaemployeewithresumeinfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="speidvar" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="speemail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="speaddress" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spephone" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="specity" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spestate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spezip" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spebillrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spepayrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spepaytype" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spetype" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientid" Type="int" Mode="In" />
+    <Parameter Name="ctmgrid" Type="int" Mode="In" />
+    <Parameter Name="speinsertedon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spataid" Type="int" Mode="In" />
+    <Parameter Name="spefirstname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spelastname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="bdmid" Type="int" Mode="In" />
+    <Parameter Name="spepointofcontactatsapta" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_misc_one" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_misc_two" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="hrid" Type="int" Mode="In" />
+    <Parameter Name="spejoiningdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="speacceptancedate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_resumename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_rtr" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_rateconfirmation" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_MSA" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="spe_PO" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="statecode" Type="nvarchar" Mode="In" />
+    <Parameter Name="resumeid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertSupplier" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="supplier_name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_email" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_phone" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_address" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_contact_person" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_contact_person_email" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_contact_person_phone" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_contact_person_id" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_zip" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="supplier_fein" Type="nvarchar" Mode="In" />
+    <Parameter Name="supplier_dba" Type="nvarchar" Mode="In" />
+    <Parameter Name="supplier_state" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="password" Type="varchar(max)" Mode="In" />
+    <Parameter Name="supplier_UserId" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_JSDecryptPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="supplier_UserId" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_NewReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_PayrollByBDM" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BDM" Type="varchar(max)" Mode="In" />
+    <Parameter Name="duration" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_PayrollByEmployeeType" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="speid" Type="varchar(max)" Mode="In" />
+    <Parameter Name="duration" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_PayrollByEmployeeType_Pay" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="speid" Type="varchar(max)" Mode="In" />
+    <Parameter Name="duration" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_PayrollByFrequencyType" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="spetype" Type="varchar(max)" Mode="In" />
+    <Parameter Name="duration" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_PayrollByFrequencyType_pay" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="spetype" Type="varchar(max)" Mode="In" />
+    <Parameter Name="duration" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_PayrollInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ConsultantName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Duration" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="RegHours" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="OtHours" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="HoliHours" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="GrossRevenue" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="BillRate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="PayRate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EmpPay" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EmpPayroll" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="BCP" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="NetProfit" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CommPercent" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CommAmount" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_ReccandidatesListByStatusAndClient" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="client" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="recemail" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_RecclientsForReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="action" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_recncandidatesList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recemailid" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_recruitmentCount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_recruitmentCountWithDuration" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_SelectLoginHistory" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_supplierDecryptPassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="supplier_UserId" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_Timesheet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="useridText" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_Timesheet_ForAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="useridText" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_Timesheet_ForAllNew" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="useridText" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_Timesheet2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="useridText" Type="varchar(max)" Mode="In" />
+    <Parameter Name="startdateText" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddateText" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_Timesheet4" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="useridText" Type="int" Mode="In" />
+    <Parameter Name="startdate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_TopClientSubmisions" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startofweek" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="endofweek" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_TopPerformersOfWeek" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startofweek" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="endofweek" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_UpdateRecentItems" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="page" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="url" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="text" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="client" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ri1" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ri2" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ri3" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="position" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="resumeid" Type="int" Mode="In" />
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="resume" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_UpdateRecentReqItems" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="name" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="page" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="url" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="text" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="client" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ri1" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ri2" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ri3" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="position" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirement" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="billrate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_UpdateReportsToDashboard" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ReportName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CreatedOn" Type="datetime" Mode="In" />
+    <Parameter Name="CreatedBy" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Folder" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Fields" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="PageName" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spAdminRequirments" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirement" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirmentfilename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="department" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="employmentType" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="duration" Type="nvarchar" Mode="In" />
+    <Parameter Name="clientemailid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="subject" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="billrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="payrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="righttorepresent" Type="nvarchar" Mode="In" />
+    <Parameter Name="emailbody" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="postedbyBDM" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="noofresumes" Type="int" Mode="In" />
+    <Parameter Name="SSNrequired" Type="nvarchar" Mode="In" />
+    <Parameter Name="startDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="noofrequiredskills" Type="int" Mode="In" />
+    <Parameter Name="allskills" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="showquestionnaires" Type="nvarchar" Mode="In" />
+    <Parameter Name="uploadeddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirementlocation" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="closingdate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spEditAdminRequirments" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirement" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirmentfilename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="clientname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="department" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="employmentType" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="duration" Type="nvarchar" Mode="In" />
+    <Parameter Name="clientemailid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="subject" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="billrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="payrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="righttorepresent" Type="nvarchar" Mode="In" />
+    <Parameter Name="emailbody" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="noofresumes" Type="int" Mode="In" />
+    <Parameter Name="SSNrequired" Type="nvarchar" Mode="In" />
+    <Parameter Name="startDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="noofrequiredskills" Type="int" Mode="In" />
+    <Parameter Name="allskills" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="showquestionnaires" Type="nvarchar" Mode="In" />
+    <Parameter Name="requirementlocation" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="closingdate" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spGenerateVoucher" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="recruiteremailid" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spRecruiterDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="recruiteremailid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="status" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="spResumeInfo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="reqid" Type="nvarchar" Mode="In" />
+    <Parameter Name="resumename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="recruiterfeedback" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="recruiteremail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="resumeinfo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="submittedon" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidateFullLegalName" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidatecurrentlocation" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidatemobilenumber" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidateemail" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="skypeID" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="availableInterviewTimeslots" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="noticePeriod" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="highestDegree" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="yearOfGraduation" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="university" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="willingToRelocate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="workAuthorizationAndValidity" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="totalYearsOfExperience" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="totalYearsRelevantExperience" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="candidatepayrate" Type="nvarchar" Mode="In" />
+    <Parameter Name="currentstatus" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="previousstatus" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="skillsfoundincv" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="skillsummary" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="rtrname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="c2cname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="rcename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="firstname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="lastname" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="middlename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="NewId" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="spUpdateAdminRequirments" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="reqid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirement" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirmentfilename" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="department" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="employmentType" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="duration" Type="nvarchar" Mode="In" />
+    <Parameter Name="clientemailid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="subject" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="billrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="payrate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="righttorepresent" Type="nvarchar" Mode="In" />
+    <Parameter Name="emailbody" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="noofresumes" Type="int" Mode="In" />
+    <Parameter Name="SSNrequired" Type="nvarchar" Mode="In" />
+    <Parameter Name="startDate" Type="nvarchar" Mode="In" />
+    <Parameter Name="noofrequiredskills" Type="int" Mode="In" />
+    <Parameter Name="allskills" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="showquestionnaires" Type="nvarchar" Mode="In" />
+    <Parameter Name="uploadeddate" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="requirementlocation" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="spVendorInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="vendorname" Type="nvarchar" Mode="In" />
+    <Parameter Name="vendoremail" Type="nvarchar" Mode="In" />
+    <Parameter Name="vendorlocation" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="TimesheetSummaryReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startdateText" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddateText" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="TimesheetSummaryReportNew" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startdateText" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enddateText" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'Saptaerecruit.dbo.projectdetails' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="projectdetails">
+        <Property Name="id" Type="bigint" />
+        <Property Name="ProjectName" Type="nvarchar(max)" />
+        <Property Name="CompanyName" Type="nvarchar(max)" />
+        <Property Name="CompanyLocation" Type="nvarchar(max)" />
+        <Property Name="Skills" Type="nvarchar(max)" />
+        <Property Name="Role" Type="nvarchar(max)" />
+        <Property Name="AreaOfExpertize" Type="nvarchar(max)" />
+        <Property Name="StartDate" Type="datetime" />
+        <Property Name="EndDate" Type="datetime" />
+      </EntityType>-->
+</Schema>

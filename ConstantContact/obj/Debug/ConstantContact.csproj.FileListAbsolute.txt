@@ -1,0 +1,17 @@
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\ConstantContact.dll
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\ConstantContact.pdb
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\CTCT.dll
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\CTCT.pdb
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\CTCT.xml
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\obj\Debug\ConstantContact.csprojResolveAssemblyReference.cache
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\obj\Debug\ConstantContact.dll
+H:\Users\Administrator\Downloads\net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\obj\Debug\ConstantContact.pdb
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\obj\Debug\ConstantContact.csprojResolveAssemblyReference.cache
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\obj\Debug\ConstantContact.dll
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\obj\Debug\ConstantContact.pdb
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\ConstantContact.dll.config
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\ConstantContact.dll
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\ConstantContact.pdb
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\CTCT.dll
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\CTCT.pdb
+D:\github\.net-sdk-master\.net-sdk-master\EmailCampaignExample\ConstantContact\bin\CTCT.xml

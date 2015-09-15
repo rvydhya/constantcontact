@@ -1,0 +1,1218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SaptaerecruitModelStoreContainer" CdmEntityContainer="SaptaerecruitEntities">
+    <EntitySetMapping Name="adminnotes">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.adminnote">
+        <MappingFragment StoreEntitySet="adminnotes">
+          <ScalarProperty Name="adminnoteid" ColumnName="adminnoteid" />
+          <ScalarProperty Name="resumeid" ColumnName="resumeid" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="noteschangedondate" ColumnName="noteschangedondate" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="action" ColumnName="action" />
+          <ScalarProperty Name="updatedby" ColumnName="updatedby" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="adminrequirments">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.adminrequirment">
+        <MappingFragment StoreEntitySet="adminrequirments">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="requirement" ColumnName="requirement" />
+          <ScalarProperty Name="requirmentfilename" ColumnName="requirmentfilename" />
+          <ScalarProperty Name="clientName" ColumnName="clientName" />
+          <ScalarProperty Name="department" ColumnName="department" />
+          <ScalarProperty Name="employmentType" ColumnName="employmentType" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="clientemailid" ColumnName="clientemailid" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="billrate" ColumnName="billrate" />
+          <ScalarProperty Name="payrate" ColumnName="payrate" />
+          <ScalarProperty Name="recruiterid" ColumnName="recruiterid" />
+          <ScalarProperty Name="techadminid" ColumnName="techadminid" />
+          <ScalarProperty Name="righttorepresent" ColumnName="righttorepresent" />
+          <ScalarProperty Name="emailbody" ColumnName="emailbody" />
+          <ScalarProperty Name="postedbyBDM" ColumnName="postedbyBDM" />
+          <ScalarProperty Name="postedbyBDMemail" ColumnName="postedbyBDMemail" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="vendorstatus" ColumnName="vendorstatus" />
+          <ScalarProperty Name="noofresumes" ColumnName="noofresumes" />
+          <ScalarProperty Name="SSNrequired" ColumnName="SSNrequired" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="noofrequiredskills" ColumnName="noofrequiredskills" />
+          <ScalarProperty Name="allskills" ColumnName="allskills" />
+          <ScalarProperty Name="showquestionnaires" ColumnName="showquestionnaires" />
+          <ScalarProperty Name="uploadeddate" ColumnName="uploadeddate" />
+          <ScalarProperty Name="requirementlocation" ColumnName="requirementlocation" />
+          <ScalarProperty Name="recruiteremailid" ColumnName="recruiteremailid" />
+          <ScalarProperty Name="techadminemailid" ColumnName="techadminemailid" />
+          <ScalarProperty Name="closingdate" ColumnName="closingdate" />
+          <ScalarProperty Name="duration_indays" ColumnName="duration_indays" />
+          <ScalarProperty Name="extsalesmgr" ColumnName="extsalesmgr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="allresumeextracts">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.allresumeextract">
+        <MappingFragment StoreEntitySet="allresumeextracts">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="StateCode" ColumnName="StateCode" />
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="CurrentAddress" ColumnName="CurrentAddress" />
+          <ScalarProperty Name="PermanentAddress" ColumnName="PermanentAddress" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="LINKEDIN" ColumnName="LINKEDIN" />
+          <ScalarProperty Name="TWITTER" ColumnName="TWITTER" />
+          <ScalarProperty Name="SKYPEID" ColumnName="SKYPEID" />
+          <ScalarProperty Name="TotalExp" ColumnName="TotalExp" />
+          <ScalarProperty Name="RelevantExp" ColumnName="RelevantExp" />
+          <ScalarProperty Name="Skills" ColumnName="Skills" />
+          <ScalarProperty Name="Companies" ColumnName="Companies" />
+          <ScalarProperty Name="CompanyLocations" ColumnName="CompanyLocations" />
+          <ScalarProperty Name="AreasOfExpertize" ColumnName="AreasOfExpertize" />
+          <ScalarProperty Name="Certifications" ColumnName="Certifications" />
+          <ScalarProperty Name="VisaStatus" ColumnName="VisaStatus" />
+          <ScalarProperty Name="EducationDetails" ColumnName="EducationDetails" />
+          <ScalarProperty Name="Roles" ColumnName="Roles" />
+          <ScalarProperty Name="resumeid" ColumnName="resumeid" />
+          <ScalarProperty Name="resumename" ColumnName="resumename" />
+          <ScalarProperty Name="SSN" ColumnName="SSN" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="LineNumber" ColumnName="LineNumber" />
+          <ScalarProperty Name="ish1bcandidate" ColumnName="ish1bcandidate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="allresumes">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.allresume">
+        <MappingFragment StoreEntitySet="allresumes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="resume" ColumnName="resume" />
+          <ScalarProperty Name="keywords" ColumnName="keywords" />
+          <ScalarProperty Name="contents" ColumnName="contents" />
+          <ScalarProperty Name="ish1bcandidate" ColumnName="ish1bcandidate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="assessperformances">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.assessperformance">
+        <MappingFragment StoreEntitySet="assessperformance">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="recruiterrname" ColumnName="recruiterrname" />
+          <ScalarProperty Name="performance" ColumnName="performance" />
+          <ScalarProperty Name="dateofeavluation" ColumnName="dateofeavluation" />
+          <ScalarProperty Name="noofmonthlylogos" ColumnName="noofmonthlylogos" />
+          <ScalarProperty Name="noofweeklylogos" ColumnName="noofweeklylogos" />
+          <ScalarProperty Name="totalnooflogos" ColumnName="totalnooflogos" />
+          <ScalarProperty Name="recruiteremailid" ColumnName="recruiteremailid" />
+          <ScalarProperty Name="evaluatestatus" ColumnName="evaluatestatus" />
+          <ScalarProperty Name="performancelogo" ColumnName="performancelogo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BasePurchaseOrders">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.BasePurchaseOrder">
+        <MappingFragment StoreEntitySet="BasePurchaseOrders">
+          <ScalarProperty Name="pob_id" ColumnName="pob_id" />
+          <ScalarProperty Name="pob_generated_on" ColumnName="pob_generated_on" />
+          <ScalarProperty Name="total_amount" ColumnName="total_amount" />
+          <ScalarProperty Name="valid_upto" ColumnName="valid_upto" />
+          <ScalarProperty Name="pob_initiallyraised_by" ColumnName="pob_initiallyraised_by" />
+          <ScalarProperty Name="pob_issued_to" ColumnName="pob_issued_to" />
+          <ScalarProperty Name="pob_issued_to_supplier_id" ColumnName="pob_issued_to_supplier_id" />
+          <ScalarProperty Name="pob_raised_for" ColumnName="pob_raised_for" />
+          <ScalarProperty Name="pob_raised_for_id" ColumnName="pob_raised-for_id" />
+          <ScalarProperty Name="isapproved" ColumnName="isapproved" />
+          <ScalarProperty Name="netterms" ColumnName="netterms" />
+          <ScalarProperty Name="joiningdate" ColumnName="joiningdate" />
+          <ScalarProperty Name="billrate" ColumnName="billrate" />
+          <ScalarProperty Name="due_amount" ColumnName="due_amount" />
+          <ScalarProperty Name="joblocation" ColumnName="joblocation" />
+          <ScalarProperty Name="employee_type" ColumnName="employee_type" />
+          <ScalarProperty Name="HRmail" ColumnName="HRmail" />
+          <ScalarProperty Name="SalesDirectormail" ColumnName="SalesDirectormail" />
+          <ScalarProperty Name="pob_raised_for_client" ColumnName="pob_raised_for_client" />
+          <ScalarProperty Name="pob_raised_for_client_id" ColumnName="pob_raised_for_client_id" />
+          <ScalarProperty Name="isinitial" ColumnName="isinitial" />
+          <ScalarProperty Name="clientInvoiceId" ColumnName="clientInvoiceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="candidatedetails">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.candidatedetail">
+        <MappingFragment StoreEntitySet="candidatedetails">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="contactaddress" ColumnName="contactaddress" />
+          <ScalarProperty Name="emailid" ColumnName="emailid" />
+          <ScalarProperty Name="contactnumber" ColumnName="contactnumber" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="owner" ColumnName="owner" />
+          <ScalarProperty Name="source" ColumnName="source" />
+          <ScalarProperty Name="currentjobtitle" ColumnName="currentjobtitle" />
+          <ScalarProperty Name="currentemployer" ColumnName="currentemployer" />
+          <ScalarProperty Name="skillset" ColumnName="skillset" />
+          <ScalarProperty Name="expextedsalary" ColumnName="expextedsalary" />
+          <ScalarProperty Name="qualification" ColumnName="qualification" />
+          <ScalarProperty Name="additionalinfo" ColumnName="additionalinfo" />
+          <ScalarProperty Name="currentsalary" ColumnName="currentsalary" />
+          <ScalarProperty Name="resumename" ColumnName="resumename" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="candidateinterviewdetails">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.candidateinterviewdetail">
+        <MappingFragment StoreEntitySet="candidateinterviewdetails">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="candidatename" ColumnName="candidatename" />
+          <ScalarProperty Name="emailid" ColumnName="emailid" />
+          <ScalarProperty Name="mobileno" ColumnName="mobileno" />
+          <ScalarProperty Name="clientname" ColumnName="clientname" />
+          <ScalarProperty Name="clientmanager" ColumnName="clientmanager" />
+          <ScalarProperty Name="clientmanageremail" ColumnName="clientmanageremail" />
+          <ScalarProperty Name="clientmanagermobile" ColumnName="clientmanagermobile" />
+          <ScalarProperty Name="interviewtimeslot" ColumnName="interviewtimeslot" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="candidatelogs">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.candidatelog">
+        <MappingFragment StoreEntitySet="candidatelog">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="candidatename" ColumnName="candidatename" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="feedback" ColumnName="feedback" />
+          <ScalarProperty Name="recruiteremail" ColumnName="recruiteremail" />
+          <ScalarProperty Name="dateofinsertion" ColumnName="dateofinsertion" />
+          <ScalarProperty Name="requirement" ColumnName="requirement" />
+          <ScalarProperty Name="skills" ColumnName="skills" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clientinfs">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.clientinf">
+        <MappingFragment StoreEntitySet="clientinf">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="clientname" ColumnName="clientname" />
+          <ScalarProperty Name="clientmailid" ColumnName="clientmailid" />
+          <ScalarProperty Name="clientlocation" ColumnName="clientlocation" />
+          <ScalarProperty Name="clientphone" ColumnName="clientphone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="clientinvoices">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.clientinvoice">
+        <MappingFragment StoreEntitySet="clientinvoices">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="clientid" ColumnName="clientid" />
+          <ScalarProperty Name="clientname" ColumnName="clientname" />
+          <ScalarProperty Name="contractorid" ColumnName="contractorid" />
+          <ScalarProperty Name="contractorname" ColumnName="contractorname" />
+          <ScalarProperty Name="supplierid" ColumnName="supplierid" />
+          <ScalarProperty Name="suppliername" ColumnName="suppliername" />
+          <ScalarProperty Name="billrate" ColumnName="billrate" />
+          <ScalarProperty Name="payrate" ColumnName="payrate" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="noofhours" ColumnName="noofhours" />
+          <ScalarProperty Name="misc1" ColumnName="misc1" />
+          <ScalarProperty Name="misc2" ColumnName="misc2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailInfoes">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.EmailInfo">
+        <MappingFragment StoreEntitySet="EmailInfo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="foldername" ColumnName="foldername" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="mailcontent" ColumnName="mailcontent" />
+          <ScalarProperty Name="insertedon" ColumnName="insertedon" />
+          <ScalarProperty Name="insertedby" ColumnName="insertedby" />
+          <ScalarProperty Name="fromemail" ColumnName="fromemail" />
+          <ScalarProperty Name="maildate" ColumnName="maildate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee_Master">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Employee_Master">
+        <MappingFragment StoreEntitySet="Employee_Master">
+          <ScalarProperty Name="empmid" ColumnName="empmid" />
+          <ScalarProperty Name="empmfirstname" ColumnName="empmfirstname" />
+          <ScalarProperty Name="empmlastname" ColumnName="empmlastname" />
+          <ScalarProperty Name="empmiddlename" ColumnName="empmiddlename" />
+          <ScalarProperty Name="empmname" ColumnName="empmname" />
+          <ScalarProperty Name="empmemail" ColumnName="empmemail" />
+          <ScalarProperty Name="empmalternativeemail" ColumnName="empmalternativeemail" />
+          <ScalarProperty Name="empmmobileno" ColumnName="empmmobileno" />
+          <ScalarProperty Name="empmphoneno" ColumnName="empmphoneno" />
+          <ScalarProperty Name="empmaddress" ColumnName="empmaddress" />
+          <ScalarProperty Name="empmcity" ColumnName="empmcity" />
+          <ScalarProperty Name="empmstate" ColumnName="empmstate" />
+          <ScalarProperty Name="empmcountry" ColumnName="empmcountry" />
+          <ScalarProperty Name="empmSSN" ColumnName="empmSSN" />
+          <ScalarProperty Name="empmvisastatus" ColumnName="empmvisastatus" />
+          <ScalarProperty Name="empmcurrentcity" ColumnName="empmcurrentcity" />
+          <ScalarProperty Name="empmcurrentcountry" ColumnName="empmcurrentcountry" />
+          <ScalarProperty Name="empmoriginalcountry" ColumnName="empmoriginalcountry" />
+          <ScalarProperty Name="empmgender" ColumnName="empmgender" />
+          <ScalarProperty Name="empmmaritualstatus" ColumnName="empmmaritualstatus" />
+          <ScalarProperty Name="empmdob" ColumnName="empmdob" />
+          <ScalarProperty Name="empmfathername" ColumnName="empmfathername" />
+          <ScalarProperty Name="empmmothername" ColumnName="empmmothername" />
+          <ScalarProperty Name="empminsertedon" ColumnName="empminsertedon" />
+          <ScalarProperty Name="empstatus" ColumnName="empstatus" />
+          <ScalarProperty Name="empzip" ColumnName="empzip" />
+          <ScalarProperty Name="empmtype" ColumnName="empmtype" />
+          <ScalarProperty Name="empmpayfrequncy" ColumnName="empmpayfrequncy" />
+          <ScalarProperty Name="hrstatus" ColumnName="hrstatus" />
+          <ScalarProperty Name="bdmstatus" ColumnName="bdmstatus" />
+          <ScalarProperty Name="empbillrate" ColumnName="empbillrate" />
+          <ScalarProperty Name="emppayrate" ColumnName="emppayrate" />
+          <ScalarProperty Name="clientname" ColumnName="clientname" />
+          <ScalarProperty Name="clientemail" ColumnName="clientemail" />
+          <ScalarProperty Name="clientmanager" ColumnName="clientmanager" />
+          <ScalarProperty Name="clientmanageremail" ColumnName="clientmanageremail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpenseCategories">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.ExpenseCategory">
+        <MappingFragment StoreEntitySet="ExpenseCategories">
+          <ScalarProperty Name="ExpenseCategoryId" ColumnName="ExpenseCategoryId" />
+          <ScalarProperty Name="ExpenseName" ColumnName="ExpenseName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Expenses">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Expens">
+        <MappingFragment StoreEntitySet="Expenses">
+          <ScalarProperty Name="ExpenseSheetId" ColumnName="ExpenseSheetId" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="ExpensesOnDate" ColumnName="ExpensesOnDate" />
+          <ScalarProperty Name="InsertedOn" ColumnName="InsertedOn" />
+          <ScalarProperty Name="ExpenseType" ColumnName="ExpenseType" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hireextensions">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.hireextension">
+        <MappingFragment StoreEntitySet="hireextensions">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="resumeid" ColumnName="resumeid" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="candidatename" ColumnName="candidatename" />
+          <ScalarProperty Name="candidateemail" ColumnName="candidateemail" />
+          <ScalarProperty Name="procurementmgrname" ColumnName="procurementmgrname" />
+          <ScalarProperty Name="procurementmgremail" ColumnName="procurementmgremail" />
+          <ScalarProperty Name="clientname" ColumnName="clientname" />
+          <ScalarProperty Name="clientemail" ColumnName="clientemail" />
+          <ScalarProperty Name="joblocation" ColumnName="joblocation" />
+          <ScalarProperty Name="agreedpayrate" ColumnName="agreedpayrate" />
+          <ScalarProperty Name="permanenthire" ColumnName="permanenthire" />
+          <ScalarProperty Name="howsoontohire" ColumnName="howsoontohire" />
+          <ScalarProperty Name="extendcontract" ColumnName="extendcontract" />
+          <ScalarProperty Name="howlongextension" ColumnName="howlongextension" />
+          <ScalarProperty Name="joiningdate" ColumnName="joiningdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobSeekerEducationDetails">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.JobSeekerEducationDetail">
+        <MappingFragment StoreEntitySet="JobSeekerEducationDetails">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="jid" ColumnName="jid" />
+          <ScalarProperty Name="primaryeducation" ColumnName="primaryeducation" />
+          <ScalarProperty Name="pestartyear" ColumnName="pestartyear" />
+          <ScalarProperty Name="peendyear" ColumnName="peendyear" />
+          <ScalarProperty Name="pepercentage" ColumnName="pepercentage" />
+          <ScalarProperty Name="secondaryeducation" ColumnName="secondaryeducation" />
+          <ScalarProperty Name="sestartyear" ColumnName="sestartyear" />
+          <ScalarProperty Name="seendyear" ColumnName="seendyear" />
+          <ScalarProperty Name="sepercentage" ColumnName="sepercentage" />
+          <ScalarProperty Name="graduation" ColumnName="graduation" />
+          <ScalarProperty Name="gestartyear" ColumnName="gestartyear" />
+          <ScalarProperty Name="geendyear" ColumnName="geendyear" />
+          <ScalarProperty Name="gepercentage" ColumnName="gepercentage" />
+          <ScalarProperty Name="othereducation" ColumnName="othereducation" />
+          <ScalarProperty Name="oestartyear" ColumnName="oestartyear" />
+          <ScalarProperty Name="oeendyear" ColumnName="oeendyear" />
+          <ScalarProperty Name="oepercentage" ColumnName="oepercentage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobSeekerEmploymentDetails">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.JobSeekerEmploymentDetail">
+        <MappingFragment StoreEntitySet="JobSeekerEmploymentDetails">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="jobseekerid" ColumnName="jobseekerid" />
+          <ScalarProperty Name="workexperince" ColumnName="workexperince" />
+          <ScalarProperty Name="currentsalary" ColumnName="currentsalary" />
+          <ScalarProperty Name="currentcomapnyname" ColumnName="currentcomapnyname" />
+          <ScalarProperty Name="fromyear" ColumnName="fromyear" />
+          <ScalarProperty Name="toyear" ColumnName="toyear" />
+          <ScalarProperty Name="keyskills" ColumnName="keyskills" />
+          <ScalarProperty Name="resumename" ColumnName="resumename" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="jobseekerHomes">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.jobseekerHome">
+        <MappingFragment StoreEntitySet="jobseekerHome">
+          <ScalarProperty Name="applicationId" ColumnName="applicationId" />
+          <ScalarProperty Name="jobseekerId" ColumnName="jobseekerId" />
+          <ScalarProperty Name="requirementId" ColumnName="requirementId" />
+          <ScalarProperty Name="isApplied" ColumnName="isApplied" />
+          <ScalarProperty Name="appliedOn" ColumnName="appliedOn" />
+          <ScalarProperty Name="recruiterEmailId" ColumnName="recruiterEmailId" />
+          <ScalarProperty Name="requirementUploadBy" ColumnName="requirementUploadBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobSeekerInfoes">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.JobSeekerInfo">
+        <MappingFragment StoreEntitySet="JobSeekerInfo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="middlename" ColumnName="middlename" />
+          <ScalarProperty Name="emailid" ColumnName="emailid" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="mobileno" ColumnName="mobileno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leaves">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Leaf">
+        <MappingFragment StoreEntitySet="Leaves">
+          <ScalarProperty Name="LeaveId" ColumnName="LeaveId" />
+          <ScalarProperty Name="LeaveCode" ColumnName="LeaveCode" />
+          <ScalarProperty Name="LeaveName" ColumnName="LeaveName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoginHistories">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.LoginHistory">
+        <MappingFragment StoreEntitySet="LoginHistory">
+          <ScalarProperty Name="HistoryId" ColumnName="HistoryId" />
+          <ScalarProperty Name="User_Name" ColumnName="User Name" />
+          <ScalarProperty Name="Login_Time" ColumnName="Login Time" />
+          <ScalarProperty Name="Source_Ip" ColumnName="Source Ip" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Login_Type" ColumnName="Login Type" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Browser" ColumnName="Browser" />
+          <ScalarProperty Name="Platform" ColumnName="Platform" />
+          <ScalarProperty Name="Application" ColumnName="Application" />
+          <ScalarProperty Name="Login_URL" ColumnName="Login URL" />
+          <ScalarProperty Name="ISP" ColumnName="ISP" />
+          <ScalarProperty Name="LatitudeLongitude" ColumnName="LatitudeLongitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PayrollVMs">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.PayrollVM">
+        <MappingFragment StoreEntitySet="PayrollVM">
+          <ScalarProperty Name="payrollid" ColumnName="payrollid" />
+          <ScalarProperty Name="speid" ColumnName="speid" />
+          <ScalarProperty Name="ConsultantName" ColumnName="ConsultantName" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="RegHours" ColumnName="RegHours" />
+          <ScalarProperty Name="OtHours" ColumnName="OtHours" />
+          <ScalarProperty Name="HoliHours" ColumnName="HoliHours" />
+          <ScalarProperty Name="GrossRevenue" ColumnName="GrossRevenue" />
+          <ScalarProperty Name="BillRate" ColumnName="BillRate" />
+          <ScalarProperty Name="PayRate" ColumnName="PayRate" />
+          <ScalarProperty Name="EmpPay" ColumnName="EmpPay" />
+          <ScalarProperty Name="EmpPayroll" ColumnName="EmpPayroll" />
+          <ScalarProperty Name="BCP" ColumnName="BCP" />
+          <ScalarProperty Name="StandardDeduction" ColumnName="StandardDeduction" />
+          <ScalarProperty Name="NetProfit" ColumnName="NetProfit" />
+          <ScalarProperty Name="CommPercent" ColumnName="CommPercent" />
+          <ScalarProperty Name="CommAmount" ColumnName="CommAmount" />
+          <ScalarProperty Name="PayrollStatus" ColumnName="PayrollStatus" />
+          <ScalarProperty Name="spetype" ColumnName="spetype" />
+          <ScalarProperty Name="spepaytype" ColumnName="spepaytype" />
+          <ScalarProperty Name="payroll_insertedon" ColumnName="payroll_insertedon" />
+          <ScalarProperty Name="recruitement_comission" ColumnName="recruitement_comission" />
+          <ScalarProperty Name="FBC" ColumnName="FBC" />
+          <ScalarProperty Name="pay" ColumnName="pay" />
+          <ScalarProperty Name="tids_count" ColumnName="tids_count" />
+          <ScalarProperty Name="firstweek" ColumnName="firstweek" />
+          <ScalarProperty Name="firstweek_regular" ColumnName="firstweek_regular" />
+          <ScalarProperty Name="first_ot" ColumnName="first_ot" />
+          <ScalarProperty Name="first_holiday" ColumnName="first_holiday" />
+          <ScalarProperty Name="secondweek" ColumnName="secondweek" />
+          <ScalarProperty Name="secondweek_regular" ColumnName="secondweek_regular" />
+          <ScalarProperty Name="second_ot" ColumnName="second_ot" />
+          <ScalarProperty Name="second_holiday" ColumnName="second_holiday" />
+          <ScalarProperty Name="first_tid" ColumnName="first_tid" />
+          <ScalarProperty Name="second_tid" ColumnName="second_tid" />
+          <ScalarProperty Name="thirdweek" ColumnName="thirdweek" />
+          <ScalarProperty Name="thirdweek_regular" ColumnName="thirdweek_regular" />
+          <ScalarProperty Name="third_ot" ColumnName="third_ot" />
+          <ScalarProperty Name="third_holiday" ColumnName="third_holiday" />
+          <ScalarProperty Name="fourthweek" ColumnName="fourthweek" />
+          <ScalarProperty Name="fourthweek_regular" ColumnName="fourthweek_regular" />
+          <ScalarProperty Name="fourt_ot" ColumnName="fourt_ot" />
+          <ScalarProperty Name="fourt_holiday" ColumnName="fourt_holiday" />
+          <ScalarProperty Name="fifthtweek" ColumnName="fifthtweek" />
+          <ScalarProperty Name="fifthweek_regular" ColumnName="fifthweek_regular" />
+          <ScalarProperty Name="fifth_ot" ColumnName="fifth_ot" />
+          <ScalarProperty Name="fifth_holiday" ColumnName="fifth_holiday" />
+          <ScalarProperty Name="third_tid" ColumnName="third_tid" />
+          <ScalarProperty Name="fourth_tid" ColumnName="fourth_tid" />
+          <ScalarProperty Name="fifth_tid" ColumnName="fifth_tid" />
+          <ScalarProperty Name="bdmname" ColumnName="bdmname" />
+          <ScalarProperty Name="FirstWeekEmpPay" ColumnName="FirstWeekEmpPay" />
+          <ScalarProperty Name="SecondWeekEmpPay" ColumnName="SecondWeekEmpPay" />
+          <ScalarProperty Name="ThirdWeekEmpPay" ColumnName="ThirdWeekEmpPay" />
+          <ScalarProperty Name="FourthWeekPay" ColumnName="FourthWeekPay" />
+          <ScalarProperty Name="FifthWeekEmpPay" ColumnName="FifthWeekEmpPay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProcessPayrolls">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.ProcessPayroll">
+        <MappingFragment StoreEntitySet="ProcessPayroll">
+          <ScalarProperty Name="payrollid" ColumnName="payrollid" />
+          <ScalarProperty Name="speid" ColumnName="speid" />
+          <ScalarProperty Name="ConsultantName" ColumnName="ConsultantName" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="RegHours" ColumnName="RegHours" />
+          <ScalarProperty Name="OtHours" ColumnName="OtHours" />
+          <ScalarProperty Name="HoliHours" ColumnName="HoliHours" />
+          <ScalarProperty Name="GrossRevenue" ColumnName="GrossRevenue" />
+          <ScalarProperty Name="BillRate" ColumnName="BillRate" />
+          <ScalarProperty Name="PayRate" ColumnName="PayRate" />
+          <ScalarProperty Name="EmpPay" ColumnName="EmpPay" />
+          <ScalarProperty Name="EmpPayroll" ColumnName="EmpPayroll" />
+          <ScalarProperty Name="BCP" ColumnName="BCP" />
+          <ScalarProperty Name="StandardDeduction" ColumnName="StandardDeduction" />
+          <ScalarProperty Name="NetProfit" ColumnName="NetProfit" />
+          <ScalarProperty Name="CommPercent" ColumnName="CommPercent" />
+          <ScalarProperty Name="CommAmount" ColumnName="CommAmount" />
+          <ScalarProperty Name="PayrollStatus" ColumnName="PayrollStatus" />
+          <ScalarProperty Name="spetype" ColumnName="spetype" />
+          <ScalarProperty Name="spepaytype" ColumnName="spepaytype" />
+          <ScalarProperty Name="payroll_insertedon" ColumnName="payroll_insertedon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Projects">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Project">
+        <MappingFragment StoreEntitySet="Project">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrders">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.PurchaseOrder">
+        <MappingFragment StoreEntitySet="PurchaseOrders">
+          <ScalarProperty Name="po_id" ColumnName="po_id" />
+          <ScalarProperty Name="po_generated_on" ColumnName="po_generated_on" />
+          <ScalarProperty Name="purchase_amount" ColumnName="purchase_amount" />
+          <ScalarProperty Name="valid_upto" ColumnName="valid_upto" />
+          <ScalarProperty Name="po_raised_by" ColumnName="po_raised_by" />
+          <ScalarProperty Name="po_issued_to" ColumnName="po_issued_to" />
+          <ScalarProperty Name="po_issued_to_supplier_id" ColumnName="po_issued_to_supplier_id" />
+          <ScalarProperty Name="po_raised_for" ColumnName="po_raised_for" />
+          <ScalarProperty Name="po_raised_for_id" ColumnName="po_raised-for_id" />
+          <ScalarProperty Name="isapproved" ColumnName="isapproved" />
+          <ScalarProperty Name="netterms" ColumnName="netterms" />
+          <ScalarProperty Name="joiningdate" ColumnName="joiningdate" />
+          <ScalarProperty Name="billrate" ColumnName="billrate" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="joblocation" ColumnName="joblocation" />
+          <ScalarProperty Name="employee_type" ColumnName="employee_type" />
+          <ScalarProperty Name="HRmail" ColumnName="HRmail" />
+          <ScalarProperty Name="SalesDirectormail" ColumnName="SalesDirectormail" />
+          <ScalarProperty Name="po_raised_for_client" ColumnName="po_raised_for_client" />
+          <ScalarProperty Name="po_raised_for_client_id" ColumnName="po_raised_for_client_id" />
+          <ScalarProperty Name="pob_id" ColumnName="pob_id" />
+          <ScalarProperty Name="isinitial" ColumnName="isinitial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseRequests">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.PurchaseRequest">
+        <MappingFragment StoreEntitySet="PurchaseRequests">
+          <ScalarProperty Name="pr_id" ColumnName="pr_id" />
+          <ScalarProperty Name="purchase_request_generated_on" ColumnName="purchase_request_generated_on" />
+          <ScalarProperty Name="requested_amount" ColumnName="requested_amount" />
+          <ScalarProperty Name="pr_raised_by" ColumnName="pr_raised_by" />
+          <ScalarProperty Name="pr_received_by_supplier" ColumnName="pr_received_by_supplier" />
+          <ScalarProperty Name="pr_received_by_supplier_id" ColumnName="pr_received_by_supplier_id" />
+          <ScalarProperty Name="pr_raised_for" ColumnName="pr_raised_for" />
+          <ScalarProperty Name="pr_raised_for_id" ColumnName="pr_raised_for_id" />
+          <ScalarProperty Name="isapproved" ColumnName="isapproved" />
+          <ScalarProperty Name="netterms" ColumnName="netterms" />
+          <ScalarProperty Name="joiningdate" ColumnName="joiningdate" />
+          <ScalarProperty Name="billrate" ColumnName="billrate" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="joblocation" ColumnName="joblocation" />
+          <ScalarProperty Name="employee_type" ColumnName="employee_type" />
+          <ScalarProperty Name="HRmail" ColumnName="HRmail" />
+          <ScalarProperty Name="SalesDirectormail" ColumnName="SalesDirectormail" />
+          <ScalarProperty Name="pr_raised_for_client" ColumnName="pr_raised_for_client" />
+          <ScalarProperty Name="pr_raised_for_client_id" ColumnName="pr_raised_for_client_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="questionnaires">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.questionnaire">
+        <MappingFragment StoreEntitySet="questionnaire">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="skillname" ColumnName="skillname" />
+          <ScalarProperty Name="question" ColumnName="question" />
+          <ScalarProperty Name="answer" ColumnName="answer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Receipts_Info">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Receipts_Info">
+        <MappingFragment StoreEntitySet="Receipts_Info">
+          <ScalarProperty Name="receipt_id" ColumnName="receipt_id" />
+          <ScalarProperty Name="receipt_number" ColumnName="receipt_number" />
+          <ScalarProperty Name="receipt_of_po" ColumnName="receipt_of_po" />
+          <ScalarProperty Name="received_on" ColumnName="received_on" />
+          <ScalarProperty Name="received_from_supplier_id" ColumnName="received_from_supplier_id" />
+          <ScalarProperty Name="received_to" ColumnName="received_to" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecentItems">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.RecentItem">
+        <MappingFragment StoreEntitySet="RecentItems">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Employee" ColumnName="Employee" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Client" ColumnName="Client" />
+          <ScalarProperty Name="RI1" ColumnName="RI1" />
+          <ScalarProperty Name="RI2" ColumnName="RI2" />
+          <ScalarProperty Name="RI3" ColumnName="RI3" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="CandidateName" ColumnName="CandidateName" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="resumeid" ColumnName="resumeid" />
+          <ScalarProperty Name="resumename" ColumnName="resumename" />
+          <ScalarProperty Name="recent1" ColumnName="recent1" />
+          <ScalarProperty Name="recent2" ColumnName="recent2" />
+          <ScalarProperty Name="recent3" ColumnName="recent3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecentReqItems">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.RecentReqItem">
+        <MappingFragment StoreEntitySet="RecentReqItems">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Employee" ColumnName="Employee" />
+          <ScalarProperty Name="Page" ColumnName="Page" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Client" ColumnName="Client" />
+          <ScalarProperty Name="RI1" ColumnName="RI1" />
+          <ScalarProperty Name="RI2" ColumnName="RI2" />
+          <ScalarProperty Name="RI3" ColumnName="RI3" />
+          <ScalarProperty Name="billrate" ColumnName="billrate" />
+          <ScalarProperty Name="requirement" ColumnName="requirement" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="recent1" ColumnName="recent1" />
+          <ScalarProperty Name="recent2" ColumnName="recent2" />
+          <ScalarProperty Name="recent3" ColumnName="recent3" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReportDashBoards">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.ReportDashBoard">
+        <MappingFragment StoreEntitySet="ReportDashBoard">
+          <ScalarProperty Name="ReportId" ColumnName="ReportId" />
+          <ScalarProperty Name="ReportName" ColumnName="ReportName" />
+          <ScalarProperty Name="ReportCreatedOn" ColumnName="ReportCreatedOn" />
+          <ScalarProperty Name="ReportCreatedBy" ColumnName="ReportCreatedBy" />
+          <ScalarProperty Name="Folder" ColumnName="Folder" />
+          <ScalarProperty Name="mis1" ColumnName="mis1" />
+          <ScalarProperty Name="mis2" ColumnName="mis2" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="action" ColumnName="action" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="resumeextracts">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.resumeextract">
+        <MappingFragment StoreEntitySet="resumeextracts">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="StateCode" ColumnName="StateCode" />
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="CurrentAddress" ColumnName="CurrentAddress" />
+          <ScalarProperty Name="PermanentAddress" ColumnName="PermanentAddress" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="LINKEDIN" ColumnName="LINKEDIN" />
+          <ScalarProperty Name="TWITTER" ColumnName="TWITTER" />
+          <ScalarProperty Name="SKYPEID" ColumnName="SKYPEID" />
+          <ScalarProperty Name="TotalExp" ColumnName="TotalExp" />
+          <ScalarProperty Name="RelevantExp" ColumnName="RelevantExp" />
+          <ScalarProperty Name="Skills" ColumnName="Skills" />
+          <ScalarProperty Name="Companies" ColumnName="Companies" />
+          <ScalarProperty Name="CompanyLocations" ColumnName="CompanyLocations" />
+          <ScalarProperty Name="AreasOfExpertize" ColumnName="AreasOfExpertize" />
+          <ScalarProperty Name="Certifications" ColumnName="Certifications" />
+          <ScalarProperty Name="VisaStatus" ColumnName="VisaStatus" />
+          <ScalarProperty Name="EducationDetails" ColumnName="EducationDetails" />
+          <ScalarProperty Name="Roles" ColumnName="Roles" />
+          <ScalarProperty Name="resumeid" ColumnName="resumeid" />
+          <ScalarProperty Name="resumename" ColumnName="resumename" />
+          <ScalarProperty Name="SSN" ColumnName="SSN" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="LineNumber" ColumnName="LineNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="resumeInfoes">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.resumeInfo">
+        <MappingFragment StoreEntitySet="resumeInfo">
+          <ScalarProperty Name="resumeid" ColumnName="resumeid" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="resumename" ColumnName="resumename" />
+          <ScalarProperty Name="recruiteremail" ColumnName="recruiteremail" />
+          <ScalarProperty Name="techadminemail" ColumnName="techadminemail" />
+          <ScalarProperty Name="recruiterfeedback" ColumnName="recruiterfeedback" />
+          <ScalarProperty Name="techadminfeedback" ColumnName="techadminfeedback" />
+          <ScalarProperty Name="resumeinfo1" ColumnName="resumeinfo" />
+          <ScalarProperty Name="submittedon" ColumnName="submittedon" />
+          <ScalarProperty Name="candidateFullLegalName" ColumnName="candidateFullLegalName" />
+          <ScalarProperty Name="candidatecurrentlocation" ColumnName="candidatecurrentlocation" />
+          <ScalarProperty Name="candidatemobilenumber" ColumnName="candidatemobilenumber" />
+          <ScalarProperty Name="candidateemail" ColumnName="candidateemail" />
+          <ScalarProperty Name="skypeID" ColumnName="skypeID" />
+          <ScalarProperty Name="availableInterviewTimeslots" ColumnName="availableInterviewTimeslots" />
+          <ScalarProperty Name="noticePeriod" ColumnName="noticePeriod" />
+          <ScalarProperty Name="highestDegree" ColumnName="highestDegree" />
+          <ScalarProperty Name="yearOfGraduation" ColumnName="yearOfGraduation" />
+          <ScalarProperty Name="university" ColumnName="university" />
+          <ScalarProperty Name="willingToRelocate" ColumnName="willingToRelocate" />
+          <ScalarProperty Name="workAuthorizationAndValidity" ColumnName="workAuthorizationAndValidity" />
+          <ScalarProperty Name="totalYearsOfExperience" ColumnName="totalYearsOfExperience" />
+          <ScalarProperty Name="totalYearsRelevantExperience" ColumnName="totalYearsRelevantExperience" />
+          <ScalarProperty Name="candidatepayrate" ColumnName="candidatepayrate" />
+          <ScalarProperty Name="currentstatus" ColumnName="currentstatus" />
+          <ScalarProperty Name="previousstatus" ColumnName="previousstatus" />
+          <ScalarProperty Name="skillsfoundincv" ColumnName="skillsfoundincv" />
+          <ScalarProperty Name="skillsummary" ColumnName="skillsummary" />
+          <ScalarProperty Name="is_a_Point" ColumnName="is_a_Point" />
+          <ScalarProperty Name="rtrname" ColumnName="rtrname" />
+          <ScalarProperty Name="c2cname" ColumnName="c2cname" />
+          <ScalarProperty Name="rcename" ColumnName="rcename" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="middlename" ColumnName="middlename" />
+          <ScalarProperty Name="msaname" ColumnName="msaname" />
+          <ScalarProperty Name="poname" ColumnName="poname" />
+          <ScalarProperty Name="submissionrate" ColumnName="submissionrate" />
+          <ScalarProperty Name="prname" ColumnName="prname" />
+          <ScalarProperty Name="oldresume" ColumnName="oldresume" />
+          <ScalarProperty Name="cjoiningdate" ColumnName="cjoiningdate" />
+          <ScalarProperty Name="ish1bcandidate" ColumnName="ish1bcandidate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Bdm">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Bdm">
+        <MappingFragment StoreEntitySet="Sapta_Bdm">
+          <ScalarProperty Name="bid" ColumnName="bid" />
+          <ScalarProperty Name="bdmname" ColumnName="bdmname" />
+          <ScalarProperty Name="bdmemail" ColumnName="bdmemail" />
+          <ScalarProperty Name="bdminsertedon" ColumnName="bdminsertedon" />
+          <ScalarProperty Name="bdmid" ColumnName="bdmid" />
+          <ScalarProperty Name="bdmclientid" ColumnName="bdmclientid" />
+          <ScalarProperty Name="bdmcommision" ColumnName="bdmcommision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Bdm_Master">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Bdm_Master">
+        <MappingFragment StoreEntitySet="Sapta_Bdm_Master">
+          <ScalarProperty Name="bdmid" ColumnName="bdmid" />
+          <ScalarProperty Name="bdmname" ColumnName="bdmname" />
+          <ScalarProperty Name="bdmemail" ColumnName="bdmemail" />
+          <ScalarProperty Name="bdmphone" ColumnName="bdmphone" />
+          <ScalarProperty Name="bdminsertedon" ColumnName="bdminsertedon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_BiWeekly">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_BiWeekly">
+        <MappingFragment StoreEntitySet="Sapta_BiWeekly">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="paydate" ColumnName="paydate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_BiWeekly_Original">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_BiWeekly_Original">
+        <MappingFragment StoreEntitySet="Sapta_BiWeekly_Original">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="paydate" ColumnName="paydate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_ClientManager">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_ClientManager">
+        <MappingFragment StoreEntitySet="Sapta_ClientManager">
+          <ScalarProperty Name="ctmgrid" ColumnName="ctmgrid" />
+          <ScalarProperty Name="ctmgridvar" ColumnName="ctmgridvar" />
+          <ScalarProperty Name="ctmgrname" ColumnName="ctmgrname" />
+          <ScalarProperty Name="ctmgrtitle" ColumnName="ctmgrtitle" />
+          <ScalarProperty Name="ctmgraddress" ColumnName="ctmgraddress" />
+          <ScalarProperty Name="ctmgremail" ColumnName="ctmgremail" />
+          <ScalarProperty Name="ctmgrphone" ColumnName="ctmgrphone" />
+          <ScalarProperty Name="ctmgrcity" ColumnName="ctmgrcity" />
+          <ScalarProperty Name="ctmgrstate" ColumnName="ctmgrstate" />
+          <ScalarProperty Name="ctmgrzip" ColumnName="ctmgrzip" />
+          <ScalarProperty Name="clientid" ColumnName="clientid" />
+          <ScalarProperty Name="ctmgrdept" ColumnName="ctmgrdept" />
+          <ScalarProperty Name="ctmgrinsertedon" ColumnName="ctmgrinsertedon" />
+          <ScalarProperty Name="ctmgrpointofcontactatsapta" ColumnName="ctmgrpointofcontactatsapta" />
+          <ScalarProperty Name="saptaid" ColumnName="saptaid" />
+          <ScalarProperty Name="ctmgrfirstname" ColumnName="ctmgrfirstname" />
+          <ScalarProperty Name="ctmgrmiddlename" ColumnName="ctmgrmiddlename" />
+          <ScalarProperty Name="ctmgrlastname" ColumnName="ctmgrlastname" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_ClientMaster">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_ClientMaster">
+        <MappingFragment StoreEntitySet="Sapta_ClientMaster">
+          <ScalarProperty Name="clientid" ColumnName="clientid" />
+          <ScalarProperty Name="clientidvar" ColumnName="clientidvar" />
+          <ScalarProperty Name="clientname" ColumnName="clientname" />
+          <ScalarProperty Name="clientaddress" ColumnName="clientaddress" />
+          <ScalarProperty Name="clientphone" ColumnName="clientphone" />
+          <ScalarProperty Name="clientemail" ColumnName="clientemail" />
+          <ScalarProperty Name="clientcity" ColumnName="clientcity" />
+          <ScalarProperty Name="clientstate" ColumnName="clientstate" />
+          <ScalarProperty Name="clientcountry" ColumnName="clientcountry" />
+          <ScalarProperty Name="clientzip" ColumnName="clientzip" />
+          <ScalarProperty Name="clienttimezone" ColumnName="clienttimezone" />
+          <ScalarProperty Name="clientpaytype" ColumnName="clientpaytype" />
+          <ScalarProperty Name="clientinsertedon" ColumnName="clientinsertedon" />
+          <ScalarProperty Name="clientpointofcontact" ColumnName="clientpointofcontact" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="otlockstatus" ColumnName="otlockstatus" />
+          <ScalarProperty Name="holidaylockstatus" ColumnName="holidaylockstatus" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="ownername" ColumnName="ownername" />
+          <ScalarProperty Name="shippingaddress" ColumnName="shippingaddress" />
+          <ScalarProperty Name="billingaddress" ColumnName="billingaddress" />
+          <ScalarProperty Name="contactemail" ColumnName="contactemail" />
+          <ScalarProperty Name="contactphone" ColumnName="contactphone" />
+          <ScalarProperty Name="mailingaddress" ColumnName="mailingaddress" />
+          <ScalarProperty Name="contactowner" ColumnName="contactowner" />
+          <ScalarProperty Name="contacttitle" ColumnName="contacttitle" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="scopeofproject" ColumnName="scopeofproject" />
+          <ScalarProperty Name="clientlocation" ColumnName="clientlocation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_ClientRecruiter">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_ClientRecruiter">
+        <MappingFragment StoreEntitySet="Sapta_ClientRecruiter">
+          <ScalarProperty Name="ctrecid" ColumnName="ctrecid" />
+          <ScalarProperty Name="ctrecidvar" ColumnName="ctrecidvar" />
+          <ScalarProperty Name="ctrecname" ColumnName="ctrecname" />
+          <ScalarProperty Name="ctrectitle" ColumnName="ctrectitle" />
+          <ScalarProperty Name="ctrecaddress" ColumnName="ctrecaddress" />
+          <ScalarProperty Name="ctrecemail" ColumnName="ctrecemail" />
+          <ScalarProperty Name="ctrecphone" ColumnName="ctrecphone" />
+          <ScalarProperty Name="ctreccity" ColumnName="ctreccity" />
+          <ScalarProperty Name="ctrecstate" ColumnName="ctrecstate" />
+          <ScalarProperty Name="ctreczip" ColumnName="ctreczip" />
+          <ScalarProperty Name="clientid" ColumnName="clientid" />
+          <ScalarProperty Name="ctrecdept" ColumnName="ctrecdept" />
+          <ScalarProperty Name="ctrecinsertedon" ColumnName="ctrecinsertedon" />
+          <ScalarProperty Name="ctrecpointofcontactatsapta" ColumnName="ctrecpointofcontactatsapta" />
+          <ScalarProperty Name="saptaid" ColumnName="saptaid" />
+          <ScalarProperty Name="ctrecfirstname" ColumnName="ctrecfirstname" />
+          <ScalarProperty Name="ctrecmiddlename" ColumnName="ctrecmiddlename" />
+          <ScalarProperty Name="ctreclastname" ColumnName="ctreclastname" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Employees">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Employees">
+        <MappingFragment StoreEntitySet="Sapta_Employees">
+          <ScalarProperty Name="speid" ColumnName="speid" />
+          <ScalarProperty Name="speidvar" ColumnName="speidvar" />
+          <ScalarProperty Name="speSSN" ColumnName="speSSN" />
+          <ScalarProperty Name="spename" ColumnName="spename" />
+          <ScalarProperty Name="speemail" ColumnName="speemail" />
+          <ScalarProperty Name="speaddress" ColumnName="speaddress" />
+          <ScalarProperty Name="spephone" ColumnName="spephone" />
+          <ScalarProperty Name="specity" ColumnName="specity" />
+          <ScalarProperty Name="spestate" ColumnName="spestate" />
+          <ScalarProperty Name="specurrentcountry" ColumnName="specurrentcountry" />
+          <ScalarProperty Name="speoriginalcountry" ColumnName="speoriginalcountry" />
+          <ScalarProperty Name="spevisastatus" ColumnName="spevisastatus" />
+          <ScalarProperty Name="spezip" ColumnName="spezip" />
+          <ScalarProperty Name="spebillrate" ColumnName="spebillrate" />
+          <ScalarProperty Name="spepayrate" ColumnName="spepayrate" />
+          <ScalarProperty Name="spepaytype" ColumnName="spepaytype" />
+          <ScalarProperty Name="spetype" ColumnName="spetype" />
+          <ScalarProperty Name="clientid" ColumnName="clientid" />
+          <ScalarProperty Name="ctmgrid" ColumnName="ctmgrid" />
+          <ScalarProperty Name="speinsertedon" ColumnName="speinsertedon" />
+          <ScalarProperty Name="spepointofcontactatsapta" ColumnName="spepointofcontactatsapta" />
+          <ScalarProperty Name="saptaid" ColumnName="saptaid" />
+          <ScalarProperty Name="spefirstname" ColumnName="spefirstname" />
+          <ScalarProperty Name="spemiddlename" ColumnName="spemiddlename" />
+          <ScalarProperty Name="spelastname" ColumnName="spelastname" />
+          <ScalarProperty Name="speDOB" ColumnName="speDOB" />
+          <ScalarProperty Name="spealternate_email" ColumnName="spealternate_email" />
+          <ScalarProperty Name="spealternate_mobile" ColumnName="spealternate_mobile" />
+          <ScalarProperty Name="spe_emergency_number" ColumnName="spe_emergency_number" />
+          <ScalarProperty Name="spe_father_name" ColumnName="spe_father_name" />
+          <ScalarProperty Name="spe_mother_name" ColumnName="spe_mother_name" />
+          <ScalarProperty Name="spe_marital_status" ColumnName="spe_marital_status" />
+          <ScalarProperty Name="spe_permanent_address" ColumnName="spe_permanent_address" />
+          <ScalarProperty Name="spe_gender" ColumnName="spe_gender" />
+          <ScalarProperty Name="spe_misc_one" ColumnName="spe_misc_one" />
+          <ScalarProperty Name="spe_misc_two" ColumnName="spe_misc_two" />
+          <ScalarProperty Name="bdmid" ColumnName="bdmid" />
+          <ScalarProperty Name="hrid" ColumnName="hrid" />
+          <ScalarProperty Name="spejoiningdate" ColumnName="spejoiningdate" />
+          <ScalarProperty Name="speacceptancedate" ColumnName="speacceptancedate" />
+          <ScalarProperty Name="spe_resumename" ColumnName="spe_resumename" />
+          <ScalarProperty Name="spe_rtr" ColumnName="spe_rtr" />
+          <ScalarProperty Name="spe_rateconfirmation" ColumnName="spe_rateconfirmation" />
+          <ScalarProperty Name="statecode" ColumnName="statecode" />
+          <ScalarProperty Name="noof_allowed_leaves" ColumnName="noof_allowed_leaves" />
+          <ScalarProperty Name="overwrite_ot_hours" ColumnName="overwrite_ot_hours" />
+          <ScalarProperty Name="overwrite_holidayhours" ColumnName="overwrite_holidayhours" />
+          <ScalarProperty Name="spe_MSA" ColumnName="spe_MSA" />
+          <ScalarProperty Name="spe_PO" ColumnName="spe_PO" />
+          <ScalarProperty Name="projectID" ColumnName="projectID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Hr">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Hr">
+        <MappingFragment StoreEntitySet="Sapta_Hr">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="hrname" ColumnName="hrname" />
+          <ScalarProperty Name="hremail" ColumnName="hremail" />
+          <ScalarProperty Name="hrinsertedon" ColumnName="hrinsertedon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Invoice">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Invoice">
+        <MappingFragment StoreEntitySet="Sapta_Invoice">
+          <ScalarProperty Name="invoiceid" ColumnName="invoiceid" />
+          <ScalarProperty Name="vendorinvoicenumber" ColumnName="vendorinvoicenumber" />
+          <ScalarProperty Name="dueamount" ColumnName="dueamount" />
+          <ScalarProperty Name="paidamount" ColumnName="paidamount" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="modifiedon" ColumnName="modifiedon" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="misone" ColumnName="misone" />
+          <ScalarProperty Name="mistwo" ColumnName="mistwo" />
+          <ScalarProperty Name="documentname" ColumnName="documentname" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="adminnotes" ColumnName="adminnotes" />
+          <ScalarProperty Name="paydate" ColumnName="paydate" />
+          <ScalarProperty Name="paidtype" ColumnName="paidtype" />
+          <ScalarProperty Name="chequenumber" ColumnName="chequenumber" />
+          <ScalarProperty Name="po_id" ColumnName="po_id" />
+          <ScalarProperty Name="totaldueamount" ColumnName="totaldueamount" />
+          <ScalarProperty Name="pob_id" ColumnName="pob_id" />
+          <ScalarProperty Name="suppliername" ColumnName="suppliername" />
+          <ScalarProperty Name="contractorid" ColumnName="contractorid" />
+          <ScalarProperty Name="contractorname" ColumnName="contractorname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Invoice_ToClients">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Invoice_ToClients">
+        <MappingFragment StoreEntitySet="Sapta_Invoice_ToClients">
+          <ScalarProperty Name="invoiceid" ColumnName="invoiceid" />
+          <ScalarProperty Name="vendorinvoicenumber" ColumnName="vendorinvoicenumber" />
+          <ScalarProperty Name="dueamount" ColumnName="dueamount" />
+          <ScalarProperty Name="paidamount" ColumnName="paidamount" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="createdon" ColumnName="createdon" />
+          <ScalarProperty Name="modifiedon" ColumnName="modifiedon" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="misone" ColumnName="misone" />
+          <ScalarProperty Name="mistwo" ColumnName="mistwo" />
+          <ScalarProperty Name="documentname" ColumnName="documentname" />
+          <ScalarProperty Name="notes" ColumnName="notes" />
+          <ScalarProperty Name="adminnotes" ColumnName="adminnotes" />
+          <ScalarProperty Name="paydate" ColumnName="paydate" />
+          <ScalarProperty Name="paidtype" ColumnName="paidtype" />
+          <ScalarProperty Name="chequenumber" ColumnName="chequenumber" />
+          <ScalarProperty Name="po_id" ColumnName="po_id" />
+          <ScalarProperty Name="totaldueamount" ColumnName="totaldueamount" />
+          <ScalarProperty Name="pob_id" ColumnName="pob_id" />
+          <ScalarProperty Name="supplierid" ColumnName="supplierid" />
+          <ScalarProperty Name="suppliername" ColumnName="suppliername" />
+          <ScalarProperty Name="startofweek" ColumnName="startofweek" />
+          <ScalarProperty Name="endofweek" ColumnName="endofweek" />
+          <ScalarProperty Name="clientid" ColumnName="clientid" />
+          <ScalarProperty Name="clientname" ColumnName="clientname" />
+          <ScalarProperty Name="contractorid" ColumnName="contractorid" />
+          <ScalarProperty Name="contractorname" ColumnName="contractorname" />
+          <ScalarProperty Name="billrate" ColumnName="billrate" />
+          <ScalarProperty Name="payrate" ColumnName="payrate" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Monthly">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Monthly">
+        <MappingFragment StoreEntitySet="Sapta_Monthly">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="paydate" ColumnName="paydate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Monthly_Original">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Monthly_Original">
+        <MappingFragment StoreEntitySet="Sapta_Monthly_Original">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="paydate" ColumnName="paydate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_NationalHolidays">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_NationalHolidays">
+        <MappingFragment StoreEntitySet="Sapta_NationalHolidays">
+          <ScalarProperty Name="nhid" ColumnName="nhid" />
+          <ScalarProperty Name="nationalholiday" ColumnName="nationalholiday" />
+          <ScalarProperty Name="nhyear" ColumnName="nhyear" />
+          <ScalarProperty Name="nholidayname" ColumnName="nholidayname" />
+          <ScalarProperty Name="states_giving_holiday" ColumnName="states_giving_holiday" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_SemiMonthly">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_SemiMonthly">
+        <MappingFragment StoreEntitySet="Sapta_SemiMonthly">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="paydate" ColumnName="paydate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Timesheet">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Timesheet">
+        <MappingFragment StoreEntitySet="Sapta_Timesheet">
+          <ScalarProperty Name="tid" ColumnName="tid" />
+          <ScalarProperty Name="speid" ColumnName="speid" />
+          <ScalarProperty Name="startofweek" ColumnName="startofweek" />
+          <ScalarProperty Name="endofweek" ColumnName="endofweek" />
+          <ScalarProperty Name="ts_monday" ColumnName="ts_monday" />
+          <ScalarProperty Name="ts_tuesday" ColumnName="ts_tuesday" />
+          <ScalarProperty Name="ts_wednusday" ColumnName="ts_wednusday" />
+          <ScalarProperty Name="ts_thursday" ColumnName="ts_thursday" />
+          <ScalarProperty Name="ts_friday" ColumnName="ts_friday" />
+          <ScalarProperty Name="ts_saturday" ColumnName="ts_saturday" />
+          <ScalarProperty Name="ts_sunday" ColumnName="ts_sunday" />
+          <ScalarProperty Name="ts_regular_hours" ColumnName="ts_regular_hours" />
+          <ScalarProperty Name="ts_OT_hours" ColumnName="ts_OT_hours" />
+          <ScalarProperty Name="ts_holiday_hours" ColumnName="ts_holiday_hours" />
+          <ScalarProperty Name="ts_total_hours" ColumnName="ts_total_hours" />
+          <ScalarProperty Name="ts_insertedon" ColumnName="ts_insertedon" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="ts_submittedon" ColumnName="ts_submittedon" />
+          <ScalarProperty Name="ts_acceptedrejectedon" ColumnName="ts_acceptedrejectedon" />
+          <ScalarProperty Name="leaves_taken" ColumnName="leaves_taken" />
+          <ScalarProperty Name="noofworkingdays" ColumnName="noofworkingdays" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="adminremarks" ColumnName="adminremarks" />
+          <ScalarProperty Name="cmremarks" ColumnName="cmremarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Users">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Users">
+        <MappingFragment StoreEntitySet="Sapta_Users">
+          <ScalarProperty Name="saptaid" ColumnName="saptaid" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="saptausertype" ColumnName="saptausertype" />
+          <ScalarProperty Name="recordinsertedon" ColumnName="recordinsertedon" />
+          <ScalarProperty Name="saptauser" ColumnName="saptauser" />
+          <ScalarProperty Name="emailid" ColumnName="emailid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sapta_Weekly">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Sapta_Weekly">
+        <MappingFragment StoreEntitySet="Sapta_Weekly">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="paydate" ColumnName="paydate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.Supplier">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="supplier_id" ColumnName="supplier_id" />
+          <ScalarProperty Name="supplier_name" ColumnName="supplier_name" />
+          <ScalarProperty Name="supplier_email" ColumnName="supplier_email" />
+          <ScalarProperty Name="supplier_phone" ColumnName="supplier_phone" />
+          <ScalarProperty Name="supplier_address" ColumnName="supplier_address" />
+          <ScalarProperty Name="supplier_contact_person" ColumnName="supplier_contact_person" />
+          <ScalarProperty Name="supplier_contact_person_email" ColumnName="supplier_contact_person_email" />
+          <ScalarProperty Name="supplier_contact_person_phone" ColumnName="supplier_contact_person_phone" />
+          <ScalarProperty Name="supplier_contact_person_id" ColumnName="supplier_contact_person_id" />
+          <ScalarProperty Name="supplier_zip" ColumnName="supplier_zip" />
+          <ScalarProperty Name="supplier_fein" ColumnName="supplier_fein" />
+          <ScalarProperty Name="supplier_dba" ColumnName="supplier_dba" />
+          <ScalarProperty Name="supplier_state" ColumnName="supplier_state" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="supplier_UserId" ColumnName="supplier_UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="t">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.t">
+        <MappingFragment StoreEntitySet="t">
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ish1bcandidate" ColumnName="ish1bcandidate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tempPayrolls">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.tempPayroll">
+        <MappingFragment StoreEntitySet="tempPayroll">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ConsultantName" ColumnName="ConsultantName" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="RegHours" ColumnName="RegHours" />
+          <ScalarProperty Name="OtHours" ColumnName="OtHours" />
+          <ScalarProperty Name="HoliHours" ColumnName="HoliHours" />
+          <ScalarProperty Name="GrossRevenue" ColumnName="GrossRevenue" />
+          <ScalarProperty Name="BillRate" ColumnName="BillRate" />
+          <ScalarProperty Name="PayRate" ColumnName="PayRate" />
+          <ScalarProperty Name="EmpPay" ColumnName="EmpPay" />
+          <ScalarProperty Name="EmpPayroll" ColumnName="EmpPayroll" />
+          <ScalarProperty Name="BCP" ColumnName="BCP" />
+          <ScalarProperty Name="NetProfit" ColumnName="NetProfit" />
+          <ScalarProperty Name="CommPercent" ColumnName="CommPercent" />
+          <ScalarProperty Name="CommAmount" ColumnName="CommAmount" />
+          <ScalarProperty Name="StandardDeduction" ColumnName="StandardDeduction" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="middlename" ColumnName="middlename" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="emailid" ColumnName="emailid" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="sendemail" ColumnName="sendemail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vendorrequirements">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.vendorrequirement">
+        <MappingFragment StoreEntitySet="vendorrequirements">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="reqid" ColumnName="reqid" />
+          <ScalarProperty Name="vendoremail" ColumnName="vendoremail" />
+          <ScalarProperty Name="vendorname" ColumnName="vendorname" />
+          <ScalarProperty Name="comments" ColumnName="comments" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vendors">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.vendor">
+        <MappingFragment StoreEntitySet="vendors">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="vendorname" ColumnName="vendorname" />
+          <ScalarProperty Name="vendoremail" ColumnName="vendoremail" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vendors_old">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.vendors_old">
+        <MappingFragment StoreEntitySet="vendors_old">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="vendorname" ColumnName="vendorname" />
+          <ScalarProperty Name="vendoremail" ColumnName="vendoremail" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vendorsALLs">
+      <EntityTypeMapping TypeName="SaptaerecruitModel.vendorsALL">
+        <MappingFragment StoreEntitySet="vendorsALL">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="vendorname" ColumnName="vendorname" />
+          <ScalarProperty Name="vendoremail" ColumnName="vendoremail" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
